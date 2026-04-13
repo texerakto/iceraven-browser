@@ -357,6 +357,19 @@ open class HomeActivity : LocaleAwareAppCompatActivity(), NavHostActivity {
         }
     }
 
+    /////////////// Texerakto REPO /////////////////////START////////
+    private fun notifyBrowserToolbarAutoHideUserInteraction() {
+        supportFragmentManager.primaryNavigationFragment
+            ?.childFragmentManager
+            ?.fragments
+            ?.forEach { fragment ->
+                (fragment as? org.mozilla.fenix.browser.BaseBrowserFragment)
+                    ?.onUserInteractionForPersonalHomepageAutoHide()
+            }
+    }
+    /////////////// Texerakto REPO /////////////////////END///////////
+
+
     @Suppress("CognitiveComplexMethod", "CyclomaticComplexMethod")
     final override fun onCreate(savedInstanceState: Bundle?) {
         // DO NOT MOVE ANYTHING ABOVE THIS getProfilerTime CALL.
@@ -490,14 +503,25 @@ open class HomeActivity : LocaleAwareAppCompatActivity(), NavHostActivity {
                 navigateToHome(navHost.navController)
             }
 
-            if (shouldNavigateToBrowserOnColdStart(savedInstanceState)) {
-                if (!shouldStartOnHome()) {
-                    navigateToBrowserOnColdStart()
-                }
-                maybeShowSetAsDefaultBrowserPrompt()
-            } else {
-                StartOnHome.enterHomeScreen.record(NoExtras())
-            }
+/////////////// Texerakto REPO /////////////////////START////////
+
+
+if (shouldNavigateToBrowserOnColdStart(savedInstanceState)) {
+    when {
+        shouldOpenPersonalHomepageOnStartup() -> {
+            openPersonalHomepageOnStartup()
+        }
+        !shouldStartOnHome() -> {
+            navigateToBrowserOnColdStart()
+        }
+    }
+    maybeShowSetAsDefaultBrowserPrompt()
+} else {
+    StartOnHome.enterHomeScreen.record(NoExtras())
+}
+
+/////////////// Texerakto REPO /////////////////////END///////////
+
         }
 
         Performance.processIntentIfPerformanceTest(intent, this)
@@ -1047,9 +1071,27 @@ open class HomeActivity : LocaleAwareAppCompatActivity(), NavHostActivity {
     }
 
     override fun dispatchTouchEvent(ev: MotionEvent?): Boolean {
+        /////////////// Texerakto REPO /////////////////////START////////
+        if (
+            ev?.actionMasked == MotionEvent.ACTION_DOWN ||
+            ev?.actionMasked == MotionEvent.ACTION_MOVE ||
+            ev?.actionMasked == MotionEvent.ACTION_UP
+        ) {
+            notifyBrowserToolbarAutoHideUserInteraction()
+        }
+        /////////////// Texerakto REPO /////////////////////END///////////
         ProfilerMarkers.addForDispatchTouchEvent(components.core.engine.profiler, ev)
         return super.dispatchTouchEvent(ev)
     }
+
+    /////////////// Texerakto REPO /////////////////////START////////
+    override fun dispatchKeyEvent(event: KeyEvent): Boolean {
+        if (event.action == KeyEvent.ACTION_DOWN) {
+            notifyBrowserToolbarAutoHideUserInteraction()
+        }
+        return super.dispatchKeyEvent(event)
+    }
+    /////////////// Texerakto REPO /////////////////////END///////////
 
     final override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
         // Inspired by https://searchfox.org/mozilla-esr68/source/mobile/android/base/java/org/mozilla/gecko/BrowserApp.java#584-613
@@ -1387,6 +1429,31 @@ open class HomeActivity : LocaleAwareAppCompatActivity(), NavHostActivity {
             getSettings().shouldStartOnHome() && intent?.action == ACTION_MAIN
         }
     }
+
+/////////////// Texerakto REPO /////////////////////START////////
+
+@VisibleForTesting
+internal fun shouldOpenPersonalHomepageOnStartup(intent: Intent? = this.intent): Boolean {
+    val settings = settings()
+    val homepageUrl = settings.customHomepageUrl.trim()
+
+    return shouldStartOnHome(intent) &&
+        !settings.shouldUseDefaultHomepage &&
+        homepageUrl.isNotEmpty()
+}
+
+@VisibleForTesting
+internal fun openPersonalHomepageOnStartup() {
+    val homepageUrl = settings().customHomepageUrl.trim()
+
+    openToBrowserAndLoad(
+        searchTermOrURL = homepageUrl,
+        newTab = true,
+        from = BrowserDirection.FromGlobal,
+    )
+}
+/////////////// Texerakto REPO /////////////////////END///////////
+
 
     fun processIntent(intent: Intent): Boolean {
         return externalSourceIntentProcessors.any {
