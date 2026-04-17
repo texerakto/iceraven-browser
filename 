@@ -1,0 +1,110 @@
+[1mdiff --git a/app/src/main/java/org/mozilla/fenix/browser/BaseBrowserFragment.kt b/app/src/main/java/org/mozilla/fenix/browser/BaseBrowserFragment.kt[m
+[1mindex 6b8f4d72b8..da2e9821ab 100644[m
+[1m--- a/app/src/main/java/org/mozilla/fenix/browser/BaseBrowserFragment.kt[m
+[1m+++ b/app/src/main/java/org/mozilla/fenix/browser/BaseBrowserFragment.kt[m
+[36m@@ -3,6 +3,8 @@[m
+  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */[m
+ [m
+ package org.mozilla.fenix.browser[m
+[32m+[m[32mimport kotlinx.coroutines.delay[m
+[32m+[m[32mimport kotlinx.coroutines.Job[m
+ [m
+ import android.app.KeyguardManager[m
+ import android.content.Context[m
+[36m@@ -344,6 +346,11 @@[m [mabstract class BaseBrowserFragment :[m
+     private val fullScreenFeature = ViewBoundFeatureWrapper<FullScreenFeature>()[m
+     protected val hideToolbarFeature = ViewBoundFeatureWrapper<WebAppHideToolbarFeature>()[m
+ [m
+[32m+[m
+[32m+[m[32m    /////////////// Texerakto REPO /////////////////////START////////[m
+[32m+[m[32m    private var globalAutoHideJob: Job? = null[m
+[32m+[m[32m    private var globalToolbarHidden = false[m
+[32m+[m[32m    /////////////// Texerakto REPO /////////////////////END///////////[m
+     private val swipeRefreshFeature = ViewBoundFeatureWrapper<SwipeRefreshFeature>()[m
+     private val webchannelIntegration = ViewBoundFeatureWrapper<FxaWebChannelIntegration>()[m
+     private val sitePermissionWifiIntegration =[m
+[36m@@ -2014,6 +2021,10 @@[m [mabstract class BaseBrowserFragment :[m
+     }[m
+ [m
+     private fun handleTabSelected(selectedTab: TabSessionState, isCustomTabSession: Boolean) {[m
+[32m+[m[32m        /////////////// Texerakto REPO /////////////////////START////////[m
+[32m+[m[32m        globalToolbarHidden = false[m
+[32m+[m[32m        scheduleGlobalBrowserAutoHide()[m
+[32m+[m[32m        /////////////// Texerakto REPO /////////////////////END///////////[m
+         if (!this.isRemoving && !isCustomTabSession) {[m
+             updateThemeForSession(selectedTab)[m
+         }[m
+[36m@@ -2036,6 +2047,9 @@[m [mabstract class BaseBrowserFragment :[m
+         super.onResume()[m
+         val components = requireComponents[m
+ [m
+[32m+[m[32m        /////////////// Texerakto REPO /////////////////////START////////[m
+[32m+[m[32m        scheduleGlobalBrowserAutoHide()[m
+[32m+[m[32m        /////////////// Texerakto REPO /////////////////////END///////////[m
+         val preferredColorScheme = components.core.getPreferredColorScheme()[m
+         if (components.core.engine.settings.preferredColorScheme != preferredColorScheme) {[m
+             components.core.engine.settings.preferredColorScheme = preferredColorScheme[m
+[36m@@ -2066,6 +2080,9 @@[m [mabstract class BaseBrowserFragment :[m
+     @CallSuper[m
+     override fun onPause() {[m
+         super.onPause()[m
+[32m+[m[32m        /////////////// Texerakto REPO /////////////////////START////////[m
+[32m+[m[32m        stopGlobalBrowserAutoHide()[m
+[32m+[m[32m        /////////////// Texerakto REPO /////////////////////END///////////[m
+         if (findNavController().currentDestination?.id != R.id.searchDialogFragment) {[m
+             view?.hideKeyboard()[m
+         }[m
+[36m@@ -2526,6 +2543,10 @@[m [mabstract class BaseBrowserFragment :[m
+     override fun onDestroyView() {[m
+         super.onDestroyView()[m
+ [m
+[32m+[m[32m        /////////////// Texerakto REPO /////////////////////START////////[m
+[32m+[m[32m        stopGlobalBrowserAutoHide()[m
+[32m+[m[32m        globalToolbarHidden = false[m
+[32m+[m[32m        /////////////// Texerakto REPO /////////////////////END///////////[m
+         // Diagnostic breadcrumb for "Display already aquired" crash:[m
+         // https://github.com/mozilla-mobile/android-components/issues/7960[m
+         breadcrumb([m
+[36m@@ -2587,7 +2608,41 @@[m [mabstract class BaseBrowserFragment :[m
+         )[m
+     }[m
+ [m
+[31m-    override fun onAccessibilityStateChanged(enabled: Boolean) {[m
+[32m+[m[41m    [m
+[32m+[m[32m    /////////////// Texerakto REPO /////////////////////START////////[m
+[32m+[m[32m    private fun scheduleGlobalBrowserAutoHide() {[m
+[32m+[m[32m        globalAutoHideJob?.cancel()[m
+[32m+[m[32m        globalAutoHideJob = viewLifecycleOwner.lifecycleScope.launch {[m
+[32m+[m[32m            delay(30_000)[m
+[32m+[m
+[32m+[m[32m            if (!isAdded || view == null || _browserToolbarView == null) return@launch[m
+[32m+[m
+[32m+[m[32m            expandBrowserView()[m
+[32m+[m[32m            globalToolbarHidden = true[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    internal fun onUserInteractionForPersonalHomepageAutoHide() {[m
+[32m+[m[32m        globalAutoHideJob?.cancel()[m
+[32m+[m
+[32m+[m[32m        if (globalToolbarHidden && _browserToolbarView != null) {[m
+[32m+[m[32m            collapseBrowserView()[m
+[32m+[m[32m            browserToolbarView.visible()[m
+[32m+[m[32m            browserToolbarView.expand()[m
+[32m+[m[32m            globalToolbarHidden = false[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m        if (isAdded && view != null && _browserToolbarView != null) {[m
+[32m+[m[32m            scheduleGlobalBrowserAutoHide()[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    private fun stopGlobalBrowserAutoHide() {[m
+[32m+[m[32m        globalAutoHideJob?.cancel()[m
+[32m+[m[32m    }[m
+[32m+[m[32m    /////////////// Texerakto REPO /////////////////////END///////////[m
+[32m+[m
+[32m+[m[32moverride fun onAccessibilityStateChanged(enabled: Boolean) {[m
+         if (_browserToolbarView != null) {[m
+             browserToolbarView.setToolbarBehavior(requireContext().settings().toolbarPosition, enabled)[m
+         }[m

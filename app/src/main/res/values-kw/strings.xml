@@ -7,7 +7,7 @@
 -->
 
 <resources>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Iceraven"). -->
   <string name="app_name_private_5">Privedh %s</string>
   <!-- Private browsing erase action "contextual feature recommendation" (CFR) -->
 

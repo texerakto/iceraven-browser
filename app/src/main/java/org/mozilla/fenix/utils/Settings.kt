@@ -2220,10 +2220,19 @@ class Settings(
         default = true,
     )
 
-    var shouldUseComposableToolbar by booleanPreference(
-        key = appContext.getPreferenceKey(R.string.pref_key_enable_composable_toolbar),
-        default = { FxNimbus.features.composableToolbar.value().enabled },
-    )
+    private val composableToolbarPreferenceKey =
+        appContext.getPreferenceKey(R.string.pref_key_enable_composable_toolbar)
+
+    /**
+     * Fork policy: always use legacy toolbar (disable Compose toolbar).
+     */
+    var shouldUseComposableToolbar: Boolean
+        get() = false
+        set(value) {
+            preferences.edit {
+                putBoolean(composableToolbarPreferenceKey, false)
+            }
+        }
 
     var shouldUseMinimalBottomToolbarWhenEnteringText by booleanPreference(
         key = appContext.getPreferenceKey(R.string.pref_key_use_minimal_bottom_toolbar_while_entering_text),

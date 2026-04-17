@@ -47,8 +47,8 @@
   <string name="home_bookmarks_show_all_content_description">بک مارکاتے نشان ایت</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">مٹائفبو</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content">%1$s اے Mozilla جوڈ کرینے۔</string>
+  <!-- About content. %1$s is the name of the app (for example "Iceraven"). -->
+  <string name="about_content">%1$s اے @forkmaintainers جوڈ کرینے۔</string>
   <!-- Text for the positive action button -->
   <string name="open_in_app_cfr_positive_button_text">سیٹنگ اتے ان</string>
   <!-- Text for the negative action button -->
@@ -130,7 +130,7 @@
   <string name="browser_menu_share">بشخبو</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_open_in_fenix">%1$s ٹی ملبو</string>
   <!-- Browser menu button to open the current page in an external app -->
@@ -218,21 +218,21 @@
   <string name="juno_onboarding_enable_notifications_negative_button" tools:ignore="UnusedResources">داسہ نہ</string>
   <!-- Text for the button to dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_add_search_widget_negative_button" tools:ignore="UnusedResources">داسہ نہ</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_title">%s اے پدا ملوی تمک</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_body">%s اے ملنگ ٹے مسعلہ اس مس۔\n\nپننگ نا رپرٹ اے رای کننگ ان براوزر نا مسعلہ گا ے درست و حل کننگ ٹی ننے کمک مریک۔ رپورٹ اتے ٹی زاتی و حساس ڑیٹا مننگ کیک۔\n</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">پننگ نا رپورٹ اے رائی کر</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">آ خا منت واری</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_restart">ولدا مل %s</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">پین ہیل کبو</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">مس</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Firefox ٹی ببوخیرٹ</string>
+  <!-- Terms of service onboarding title card label. 'Iceraven' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Iceraven ٹی ببوخیرٹ</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_learn_more" tools:ignore="UnusedResources">نن ڈیٹا اے امر کاریم ٹی اتینا</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
@@ -281,7 +281,7 @@
   <string name="preferences_category_about">باروٹ</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_about">ئنا باروٹ %1$s</string>
   <!-- Text for cancel button indicating that cookie banner reduction is not supported for the current site, this is shown as part of the cookie banner details view. -->
@@ -335,7 +335,7 @@
   <string name="alternative_app_icon_option_blue">خرن</string>
   <!-- Title for the "Sunrise" gradient alternative app icon variant in the icon picker screen. The app icon features a soft yellow-to-blue gradient background, resembling the colors of early morning light. -->
   <string name="alternative_app_icon_option_gradient_sunrise">دے ٹک</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Iceraven logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">یخ</string>
   <!-- Preference for syncing history -->
   <string name="preferences_sync_history">تاریخچہ</string>

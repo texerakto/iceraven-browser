@@ -148,7 +148,10 @@ class BrowserToolbarView(
 
             if (!isCustomTabSession) {
                 toolbar.display.setMenuDismissAction {
-                    toolbar.invalidateActions()
+                    // Fork policy:
+                    // Avoid invalidating toolbar actions on menu dismiss.
+                    // This helps prevent the modern popup from being rebuilt
+                    // and immediately auto-closing.
                 }
             }
 

@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:moz="http://mozac.org/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Iceraven"). -->
   <string name="app_name_private_5">Gizli %s</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Iceraven"). -->
   <string name="app_name_private_4">%s (Gizli)</string>
   <!--
     Home Fragment
@@ -37,7 +37,7 @@
   <string name="no_private_tabs_description" tools:ignore="UnusedResources" moz:removedIn="149">Gizli sekmeleriniz burada gösterilecek.</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">Gizli gezinti</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Iceraven") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s geçmişinizi ve çerezleri hatırlamayacaktır ama kaydettiğiniz yer imleri saklanacaktır.</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">Arama yapmak için yeni bir sekme açın</string>
@@ -73,8 +73,8 @@
   <string name="home_bookmarks_show_all_content_description">Tüm yer imlerini göster</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">Kaldır</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content">%1$s bir Mozilla ürünüdür.</string>
+  <!-- About content. %1$s is the name of the app (for example "Iceraven"). -->
+  <string name="about_content">%1$s bir @forkmaintainers ürünüdür.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Gizli gezinti ile ilgili yaygın efsaneler</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -87,7 +87,7 @@
   <string name="felt_privacy_desc_card_title">Bu cihazda iz bırakmayın</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="felt_privacy_info_card_subtitle_3">%1$s, tüm gizli sekmeleri kapattığınızda çerezlerinizi, geçmişinizi ve site verilerinizi temizler.</string>
   <!--
@@ -99,7 +99,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="open_in_app_cfr_info_message_2">%1$s tarayıcınızı bağlantıları otomatik olarak uygulamalarda açacak şekilde ayarlayabilirsiniz.</string>
   <!-- Text for the positive action button -->
@@ -134,7 +134,7 @@
   <string name="tab_tray_inactive_auto_close_title">Bir ay sonra kendiliğinden kapatılsın mı?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s bir aydır bakmadığınız sekmeleri kapatabilir.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -253,17 +253,17 @@
   <string name="browser_menu_homepage">Giriş sayfası</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_open_in_fenix">%1$s ile aç</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_powered_by" tools:ignore="UnusedResources" moz:removedIn="149">%1$s SEKMESİ</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_powered_by2">%1$s desteğiyle</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -330,12 +330,12 @@
   <string name="browser_menu_print_2">Yazdır</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">%1$s uygulamasından çık</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_default_banner_title">%1$s uygulamasını varsayılan tarayıcınız yapın</string>
   <!-- Label text within the set as default banner -->
@@ -412,7 +412,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">İzin verme</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Gizli oturumlarda arama önerilerine izin verilsin mi?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Iceraven"). -->
   <string name="search_suggestions_onboarding_text">%s, adres çubuğuna yazdığınız her şeyi varsayılan arama motorunuzla paylaşacaktır.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">%s ile ara</string>
@@ -448,7 +448,7 @@
 
     Description for learning more about our privacy notice.
   -->
-  <string name="juno_onboarding_privacy_notice_text" tools:ignore="BrandUsage">Firefox gizlilik bildirimi</string>
+  <string name="juno_onboarding_privacy_notice_text" tools:ignore="BrandUsage">Iceraven gizlilik bildirimi</string>
   <!-- Title for set firefox as default browser screen used by Nimbus experiments. -->
   <string name="juno_onboarding_default_browser_title_nimbus_2">Sizi güvende tutmayı seviyoruz</string>
   <!-- Description for set firefox as default browser screen used by Nimbus experiments. -->
@@ -461,84 +461,84 @@
   <string name="juno_onboarding_sign_in_title_2">Cihazlarınız arasında güvenle geçiş yapın</string>
   <!--
     Description for sign in to sync screen. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_sign_in_description_3" tools:ignore="BrandUsage">Firefox, eşitleme yaptığınızda parolalarınızı, yer imlerinizi ve diğer verilerinizi şifreler.</string>
+  <string name="juno_onboarding_sign_in_description_3" tools:ignore="BrandUsage">Iceraven, eşitleme yaptığınızda parolalarınızı, yer imlerinizi ve diğer verilerinizi şifreler.</string>
   <!-- Text for the button to sign in to sync on the device -->
   <string name="juno_onboarding_sign_in_positive_button" tools:ignore="UnusedResources">Giriş yap</string>
   <!-- Text for the button dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_sign_in_negative_button" tools:ignore="UnusedResources">Şimdi değil</string>
   <!--
     Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_enable_notifications_title_nimbus_2" tools:ignore="BrandUsage">Bildirimler Firefox ile daha güvende kalmanızı sağlar</string>
+  <string name="juno_onboarding_enable_notifications_title_nimbus_2" tools:ignore="BrandUsage">Bildirimler Iceraven ile daha güvende kalmanızı sağlar</string>
   <!--
     Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_enable_notifications_description_nimbus_2" tools:ignore="BrandUsage">Sekmelerinizi cihazlarınız arasında güvenli bir şekilde gönderin ve Firefox’un diğer gizlilik özelliklerini keşfedin.</string>
+  <string name="juno_onboarding_enable_notifications_description_nimbus_2" tools:ignore="BrandUsage">Sekmelerinizi cihazlarınız arasında güvenli bir şekilde gönderin ve Iceraven’un diğer gizlilik özelliklerini keşfedin.</string>
   <!-- Text for the button to request notification permission on the device -->
   <string name="juno_onboarding_enable_notifications_positive_button" tools:ignore="UnusedResources">Bildirimleri aç</string>
   <!-- Text for the button dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_enable_notifications_negative_button" tools:ignore="UnusedResources">Şimdi değil</string>
   <!--
     Title for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_title" tools:ignore="BrandUsage,UnusedResources">Firefox arama widget’ını deneyin</string>
+  <string name="juno_onboarding_add_search_widget_title" tools:ignore="BrandUsage,UnusedResources">Iceraven arama widget’ını deneyin</string>
   <!--
     Description for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_description" tools:ignore="BrandUsage,UnusedResources">Firefox’u ana ekranınıza eklerseniz gizliliğe öncelik veren tarayıcınıza kolayca erişebilirsiniz.</string>
+  <string name="juno_onboarding_add_search_widget_description" tools:ignore="BrandUsage,UnusedResources">Iceraven’u ana ekranınıza eklerseniz gizliliğe öncelik veren tarayıcınıza kolayca erişebilirsiniz.</string>
   <!--
     Text for the button to add search widget on the device used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="BrandUsage,UnusedResources">Firefox widget’ını ekle</string>
+  <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="BrandUsage,UnusedResources">Iceraven widget’ını ekle</string>
   <!-- Text for the button to dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_add_search_widget_negative_button" tools:ignore="UnusedResources">Şimdi değil</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Firefox’u iyileştirmemize yardım edin</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Iceraven’u iyileştirmemize yardım edin</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">Çökme raporlarını otomatik olarak gönderin</string>
   <!-- Description for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_description">Çökme raporları tarayıcıyla ilgili sorunları tanılayıp düzeltmemizi sağlar. Raporlar kişisel veya hassas veriler içerebilir.</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">Daha fazla bilgi al</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_title">%s yeniden başlatılmalı</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_body">%s açılırken bir sorun oluştu.\n\nÇökme raporu göndermek tarayıcıyla ilgili sorunları tanılayıp düzeltmemizi sağlar. Raporlar kişisel veya hassas veriler içerebilir.</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">Çökme raporu gönder</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">Hayır</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_restart">%s uygulamasını yeniden aç</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title">Teknik verileri ve etkileşim verilerini Mozilla’ya gönderin</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">Cihazınız, donanım yapılandırmanız ve Firefox’u nasıl kullandığınızla ilgili veriler tüm kullanıcılarımız için özellikleri, performansı ve kararlılığı iyileştirmemize yardımcı olur.</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">Cihazınız, donanım yapılandırmanız ve Iceraven’u nasıl kullandığınızla ilgili veriler tüm kullanıcılarımız için özellikleri, performansı ve kararlılığı iyileştirmemize yardımcı olur.</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">Daha fazla bilgi al</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">Tamam</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Firefox’a hoş geldiniz</string>
+  <!-- Terms of service onboarding title card label. 'Iceraven' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Iceraven’a hoş geldiniz</string>
   <!-- Terms of service sub header label. -->
   <string name="onboarding_terms_of_service_sub_header_2">Hızlı ve güvenli web gezintisi</string>
   <!-- Terms of service onboarding page continue button label. -->
   <string name="onboarding_term_of_service_agree_and_continue_button_label_2">Devam et</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Iceraven Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">Devam ettiğinizde %1$s’nı kabul etmiş sayılırsınız.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Firefox Kullanım Koşulları</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Firefox gizliliğinize önem verir. Daha fazla bilgi için %1$s’ne bakabilirsiniz.</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Iceraven Kullanım Koşulları</string>
+  <!-- Line two of the terms of service onboarding page. 'Iceraven' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Iceraven gizliliğinize önem verir. Daha fazla bilgi için %1$s’ne bakabilirsiniz.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">Gizlilik Bildirimi</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">Firefox, tarayıcıyı geliştirmemize yardımcı olmak için Mozilla’ya tanı ve etkileşim verileri gönderir. %1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Iceraven' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">Iceraven, tarayıcıyı geliştirmemize yardımcı olmak için Mozilla’ya tanı ve etkileşim verileri gönderir. %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">Yönet</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -551,23 +551,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">Binlerce özelleştirme</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Iceraven Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">Devam ettiğinizde %1$s’nı kabul etmiş sayılırsınız.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Firefox Kullanım Koşulları</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Iceraven Kullanım Koşulları</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Firefox gizliliğinize önem verir. Daha fazla bilgi için %1$s’ne bakabilirsiniz.</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Iceraven gizliliğinize önem verir. Daha fazla bilgi için %1$s’ne bakabilirsiniz.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">Gizlilik Bildirimi</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">Firefox, tarayıcıyı geliştirmemize yardımcı olmak için Mozilla’ya tanı ve etkileşim verileri gönderir. %1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">Iceraven, tarayıcıyı geliştirmemize yardımcı olmak için Mozilla’ya tanı ve etkileşim verileri gönderir. %1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">Ayarları yönet</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -576,10 +576,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">Adres çubuğunuz nerede dursun?</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">İleri</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage,UnusedResources">Firefox’u büyütmemize yardım edin</string>
+  <!-- Marketing onboarding page title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’u büyütmemize yardım edin</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Firefox’u nasıl keşfettiğinizi ve kullandığınızı Mozilla’nın pazarlama iş ortaklarıyla paylaşın. Bu verileri asla satmayız.</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Iceraven’u nasıl keşfettiğinizi ve kullandığınızı Mozilla’nın pazarlama iş ortaklarıyla paylaşın. Bu verileri asla satmayız.</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">Bu verileri nasıl kullanıyoruz?</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -588,18 +588,18 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">Otomatik izlenme koruması her an yanınızda</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">Şirketlerin tıklamalarınızı gözetlemesini tek dokunuşla durdurabilirsiniz.</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Firefox’u kullandığınız her yerde eşitleyin</string>
+  <!-- Sync onboarding redesign title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’u kullandığınız her yerde eşitleyin</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">Yer imlerinize, sekmelerinize ve parolalarınıza istediğiniz cihazdan ulaşın. Tüm bilgileriniz şifrelenerek korunur.</string>
   <!-- Sync onboarding redesign positive button text. -->
   <string name="onboarding_redesign_sync_positive_button" tools:ignore="UnusedResources">Eşitlemeyi başlat</string>
   <!-- Sync onboarding redesign negative button text. -->
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">Şimdi değil</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_title" tools:ignore="BrandUsage,UnusedResources">Firefox’u büyütmemize yardım edin</string>
-  <!-- Marketing onboarding page body. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Firefox’u nasıl keşfettiğinizi ve kullandığınızı paylaşarak daha fazla kişiye tarayıcımızı tanıtmamıza yardımcı olabilirsiniz.</string>
+  <!-- Marketing onboarding page title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’u büyütmemize yardım edin</string>
+  <!-- Marketing onboarding page body. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Iceraven’u nasıl keşfettiğinizi ve kullandığınızı paylaşarak daha fazla kişiye tarayıcımızı tanıtmamıza yardımcı olabilirsiniz.</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
   <string name="onboarding_marketing_opt_out_checkbox">Verileri Mozilla’nın pazarlama teknolojisi iş ortaklarıyla paylaşın. Bu verileri asla satmayız veya size reklam göstermek için kullanmayız.</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
@@ -608,8 +608,8 @@
   <string name="onboarding_marketing_positive_button" tools:ignore="UnusedResources">Onayla ve gezinmeye başla</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">Son bir şey daha</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Firefox’u nasıl keşfettiğinizi ve kullandığınızı Mozilla’nın pazarlama iş ortaklarıyla paylaşın. Bu verileri asla satmayız.</string>
+  <!-- Marketing onboarding page body variant. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Iceraven’u nasıl keşfettiğinizi ve kullandığınızı Mozilla’nın pazarlama iş ortaklarıyla paylaşın. Bu verileri asla satmayız.</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">Kabul et ve gezinmeye başla</string>
   <!-- ==== Project "Nova" onboarding strings ==== -->
@@ -624,23 +624,23 @@
   <string name="nova_onboarding_tou_subtitle">Hızlı, güvenli ve sizi satmayan tarayıcı.\nİnternette gezinmek artık daha keyifli.</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Iceraven Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">Devam ettiğinizde %1$s’nı kabul etmiş sayılırsınız.</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Firefox Kullanım Koşulları</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Iceraven Kullanım Koşulları</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Firefox gizliliğinize önem verir. Daha fazla bilgi için %1$s’ne bakabilirsiniz.</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Iceraven gizliliğinize önem verir. Daha fazla bilgi için %1$s’ne bakabilirsiniz.</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">Gizlilik Bildirimi</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">Firefox, tarayıcıyı geliştirmemize yardımcı olmak için Mozilla’ya tanı ve etkileşim verileri gönderir. %1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">Iceraven, tarayıcıyı geliştirmemize yardımcı olmak için Mozilla’ya tanı ve etkileşim verileri gönderir. %1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">Ayarları yönet</string>
   <!-- "Set to default" onboarding title. -->
@@ -674,24 +674,24 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">Daha iyi bir internet inşa etmemize yardım edin</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage">Firefox’u nasıl keşfettiğinizi ve kullandığınızı Mozilla’nın pazarlama iş ortaklarıyla paylaşın. Bu verileri asla satmayız. %1$s</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage">Iceraven’u nasıl keşfettiğinizi ve kullandığınızı Mozilla’nın pazarlama iş ortaklarıyla paylaşın. Bu verileri asla satmayız. %1$s</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text">Bu verileri nasıl kullanıyoruz?</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Bildirimler Firefox ile daha güvende kalmanızı sağlar</string>
-  <!-- Notifications onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Firefox’taki en yeni gizlilik özelliklerini keşfedin, nasıl korunacağınızı daha iyi öğrenin.</string>
+  <!-- Notifications onboarding title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">Bildirimler Iceraven ile daha güvende kalmanızı sağlar</string>
+  <!-- Notifications onboarding subtitle. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Iceraven’taki en yeni gizlilik özelliklerini keşfedin, nasıl korunacağınızı daha iyi öğrenin.</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">Bildirimleri aç</string>
   <!-- "Add search widget" onboarding title. -->
   <string name="nova_onboarding_add_search_widget_title">Arama yaparken gizlilikten vazgeçmeyin</string>
-  <!-- "Add search widget" onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">Aramaya telefonunuzun ana ekranından başladığınızda bile Firefox’un otomatik korumaları sizi korusun.</string>
-  <!-- "Add search widget" onboarding button. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Firefox widget’ını ekle</string>
+  <!-- "Add search widget" onboarding subtitle. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">Aramaya telefonunuzun ana ekranından başladığınızda bile Iceraven’un otomatik korumaları sizi korusun.</string>
+  <!-- "Add search widget" onboarding button. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Iceraven widget’ını ekle</string>
   <!-- ==== End of Project "Nova" onboarding strings ==== -->
 
   <!-- Onboarding header for the toolbar selection card, used by Nimbus experiments. -->
@@ -738,7 +738,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="search_widget_content_description_2">Yeni %1$s sekmesi aç</string>
   <!-- Text preview for smaller sized widgets -->
@@ -777,15 +777,15 @@
   <string name="preferences_search_engines_suggestions">Arama motorlarından öneriler</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">Adres çubuğu tercihleri</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Adres çubuğu - Firefox Önerileri</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Firefox Önerileri hakkında bilgi alın</string>
+  <!-- Preference Category for settings to Iceraven Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Adres çubuğu - Iceraven Önerileri</string>
+  <!-- Preference link to Learn more about Iceraven Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Iceraven Önerileri hakkında bilgi alın</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">Google Play’de puan ver</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_about">%1$s hakkında</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -836,13 +836,13 @@
   <string name="reduce_cookie_banner_details_panel_title_on_for_site_1">%1$s için çerez bildirimlerini engelleme açılsın mı?</string>
   <!-- Title text for a detail explanation indicating cookie banner handling is off this site, this is shown as part of the cookie banner panel in the toolbar. %1$s is a shortened URL of the current site. -->
   <string name="reduce_cookie_banner_details_panel_title_off_for_site_1">%1$s için çerez bildirimlerini engelleme kapatılsın mı?</string>
-  <!-- Title text for a detail explanation indicating cookie banner reducer didn't work for the current site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title text for a detail explanation indicating cookie banner reducer didn't work for the current site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_title_unsupported_site_request_2">%1$s bu sitedeki çerez isteklerini otomatik olarak reddedemiyor. İleride bu siteyi desteklememiz için istekte bulunabilirsiniz.</string>
-  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is off for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is off for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_description_off_for_site_1">Bunu kapatırsanız %1$s çerezleri temizleyip bu siteyi yeniden yükleyecektir. Bu durumda oturumunuz kapanabilir veya alışveriş sepetleriniz boşalabilir.</string>
-  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is on for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is on for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_description_on_for_site_3">Açtığınızda %1$s bu sitedeki tüm çerez bildirimlerini otomatik olarak reddetmeye çalışacaktır.</string>
-  <!-- Title for the cookie banner re-engagement CFR, the placeholder is replaced with app name. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the cookie banner re-engagement CFR, the placeholder is replaced with app name. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="cookie_banner_cfr_title">%1$s sizin için çerezleri reddetti</string>
   <!-- Message for the cookie banner re-engagement CFR -->
   <string name="cookie_banner_cfr_message">Bu site dikkatinizi daha az dağıtacak, çerezler sizi daha az izleyecek.</string>
@@ -930,27 +930,27 @@
   <string name="preferences_account_settings">Hesap ayarları</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">Adresleri otomatik tamamla</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Iceraven Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">Sponsorlardan öneriler</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Iceraven Suggest search suggestions.
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">Ara sıra görünecek sponsorlu önerilerle %1$s tarayıcınızı destekleyin</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Iceraven Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_show_nonsponsored_suggestions">%1$s önerileri</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Iceraven Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">Aramanızla ilgili öneriler alın</string>
   <!-- Preference title for switch preference to show search optimization cards -->
   <string name="preferences_show_search_optimization_cards">Yazarken Mozilla’dan öneriler al</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">Bağlantı paylaşımı</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="link_sharing_toggle_title">WhatsApp paylaşımlarına %1$s indirme bağlantısını ekle</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="link_sharing_toggle_body">WhatsApp’ta bağlantı paylaşırken arkadaşlarınızı %1$s ile daha hızlı ve daha güvenli gezintiyi denemeye davet edin.</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">Bağlantı paylaşıldı</string>
@@ -975,7 +975,7 @@
   <string name="preference_downloads_folder_permission_lost" tools:ignore="UnusedResources">Bu klasörü kullanma izniniz yok. Başka bir klasör seçmeyi deneyin.</string>
   <!-- Preference title for choosing an app to handle downloads -->
   <string name="preferences_choose_app_for_downloads">İndirmeleri başka bir uygulamadan yönet</string>
-  <!-- Title for the setting to automatically clean up downloaded files. %s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the setting to automatically clean up downloaded files. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_downloads_settings_clean_up_files_title">%s uygulamasından ve cihazdan sil</string>
   <!-- Summary for the setting to automatically clean up downloaded files -->
   <string name="preferences_downloads_settings_clean_up_files_summary">İndirme yöneticinizden sildiğiniz dosyalar cihazınızdan da silinir</string>
@@ -1070,7 +1070,7 @@
   <string name="wallpaper_select_error_snackbar_message">Duvar kâğıdı değiştirilemedi</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">Daha fazla bilgi al</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Iceraven"). -->
   <string name="wallpaper_classic_title">Klasik %s</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">Sanatçı serisi</string>
@@ -1118,11 +1118,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">Gece yarısı</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">Kuzey ışıkları</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Iceraven logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">Retro 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">Pikselleştirilmiş</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Iceraven logo. -->
   <string name="alternative_app_icon_option_minimal">Minimal</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">Pride</string>
@@ -1132,9 +1132,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">Tasarım: @heyheymomodraws</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">Sarılma</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Iceraven logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">Alevli</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Iceraven logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">Havalı</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">Düz renkler</string>
@@ -1144,9 +1144,9 @@
   <string name="alternative_app_icon_group_featured">Öne çıkanlar</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">Uygulama simgesi değiştirilsin mi?</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="restart_warning_dialog_body_2">Uygulama kapanabilir. %1$s uygulamasını yeniden açmak için yeni simgenize dokunmanız yeterlidir.</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="restart_and_shortcuts_removal_warning_dialog_body">Simgeyi değiştirdiğinizde ana ekranınıza kaydettiğiniz siteler ve kısayollar varsa silinecektir. \n\n%1$s kapanabilir. Yeniden açmak için yeni simgenize dokunun.</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">Simgeyi değiştir</string>
@@ -1160,8 +1160,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">Yeni uzantılar kullanıma sunuldu</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Firefox’u kişiselleştirmenizi sağlayan 100’den fazla yeni uzantıya göz atın.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Iceraven' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Iceraven’u kişiselleştirmenizi sağlayan 100’den fazla yeni uzantıya göz atın.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">Uzantıları keşfet</string>
   <!--
@@ -1173,7 +1173,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="extension_process_crash_dialog_message">Bir veya daha fazla uzantı çalışmayı durdurdu ve sisteminizi kararsız duruma getirdi. %1$s uzantıları yeniden başlatmayı denedi fakat başarısız oldu.\n\nUzantılar mevcut oturumunuz sırasında yeniden başlatılmayacak.\n\nUzantıları kaldırmak veya devre dışı bırakmak bu sorunu çözebilir.</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -1218,7 +1218,7 @@
   <string name="sync_never_synced_summary">Son eşitleme: yok</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Iceraven"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s - %2$s %3$s</string>
@@ -1233,7 +1233,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Alınan sekmeler</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Diğer Firefox cihazlarından gelen sekmelerin bildirimleri.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Diğer Iceraven cihazlarından gelen sekmelerin bildirimleri.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Sekme alındı</string>
   <!-- %s is the device name -->
@@ -1264,8 +1264,8 @@
   <string name="preference_usage_data_2">Teknik verileri ve etkileşim verilerini gönder</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">Teknik veriler hakkında daha fazla bilgi alın</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Cihazınız, donanım yapılandırmanız ve kullanımınızla ilgili veriler Firefox’un özelliklerini, performansını ve kararlılığını geliştirmemize yardımcı olur.</string>
+  <!-- Preference description for marketing data collection. Note: The words "Iceraven" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Cihazınız, donanım yapılandırmanız ve kullanımınızla ilgili veriler Iceraven’un özelliklerini, performansını ve kararlılığını geliştirmemize yardımcı olur.</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">Günlük kullanım ping’i</string>
   <string name="preferences_daily_usage_ping_description">Bu sayede Mozilla aktif kullanıcı sayısını tahmin edebilir.</string>
@@ -1286,9 +1286,9 @@
   <string name="preferences_marketing_data_2">Kampanya ölçüm verileri</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Iceraven" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Iceraven after installing it; not that Iceraven is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Firefox’u nasıl keşfettiğinizi ve kullandığınızı Mozilla’nın pazarlama teknolojileri iş ortaklarıyla paylaşın.</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Iceraven’u nasıl keşfettiğinizi ve kullandığınızı Mozilla’nın pazarlama teknolojileri iş ortaklarıyla paylaşın.</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">Pazarlama verileri ile ilgili daha fazla bilgi alın</string>
   <!-- Title for studies preferences -->
@@ -1507,8 +1507,8 @@
   <string name="studies_active">Etkin</string>
   <!-- Description for studies -->
   <string name="studies_description_3" moz:removedIn="148" tools:ignore="UnusedResources">Yeni özellikleri ve fikirleri herkesin kullanımına açılmadan önce deneyin.</string>
-  <!-- Description for studies. Note: The word "Firefox" should NOT be translated -->
-  <string name="studies_description_4" tools:ignore="BrandUsage">Firefox rastgele bazı kullanıcıları seçerek yeni özellikleri test eder. Böylece herkes için kaliteyi artırabiliriz.</string>
+  <!-- Description for studies. Note: The word "Iceraven" should NOT be translated -->
+  <string name="studies_description_4" tools:ignore="BrandUsage">Iceraven rastgele bazı kullanıcıları seçerek yeni özellikleri test eder. Böylece herkes için kaliteyi artırabiliriz.</string>
   <!-- Title of the Studies data preference -->
   <string name="studies_title" moz:removedIn="148" tools:ignore="UnusedResources">Araştırmaları yükle ve çalıştır</string>
   <!-- Title of the Studies data preference -->
@@ -1521,8 +1521,8 @@
     Title of the Remote Improvements (rollouts) data preference
   -->
   <string name="remote_improvements_title">Uzaktan iyileştirmelere izin ver</string>
-  <!-- Description for remote improvements. Note: The word "Firefox" should NOT be translated -->
-  <string name="remote_improvements_description" tools:ignore="BrandUsage">Firefox her güncellemede özellikleri, performansı ve kararlılığı iyileştirecektir. Değişiklikler uzaktan uygulanır.</string>
+  <!-- Description for remote improvements. Note: The word "Iceraven" should NOT be translated -->
+  <string name="remote_improvements_description" tools:ignore="BrandUsage">Iceraven her güncellemede özellikleri, performansı ve kararlılığı iyileştirecektir. Değişiklikler uzaktan uygulanır.</string>
   <!-- Learn more link for remote improvements, links to an article for more information about rollouts. -->
   <string name="remote_improvements_learn_more">Daha fazla bilgi al</string>
   <!-- Title for remote improvements preference in Advanced settings -->
@@ -1636,7 +1636,7 @@
   <string name="remove_top_site">Kaldır</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Geçmişten sil</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="pwa_site_controls_title_private">%1$s (Gizli Mod)</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">Sekme aramayı aç</string>
@@ -1873,7 +1873,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">Bozuk siteyi rapor et</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Iceraven") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">Raporunuz %1$s uygulamasındaki sorunları anlayıp düzeltmemize, böylece uygulamayı herkes için iyileştirmemize için yardımcı oluyor. %2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">Daha fazla bilgi alın</string>
@@ -1934,7 +1934,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="tab_crash_title_2">%1$s bu sayfayı yükleyemedi.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1943,11 +1943,11 @@
   <string name="tab_crash_close">Sekmeyi kapat</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">Sekmeyi geri yükle</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crash_dialog_title_2">%s çöktü. Rapor gönderilsin mi?</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">Araştırdığımız çökmelerle ilgili gönderilmemiş bir çökme raporunuz var. Raporunuzu göndererek %1$s tarayıcısını geliştirmemize yardımcı olabilirsiniz. Bu bildirimi kapatırsanız bu rapor görmezden gelinecektir.</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">Araştırdığımız çökmelerle ilgili gönderilmemiş %1$d çökme raporunuz var. Raporunuzu göndererek %2$s tarayıcısını geliştirmemize yardımcı olabilirsiniz. Bu bildirimi kapatırsanız bu rapor görmezden gelinecektir.</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">Çökme raporlarını otomatik olarak gönder</string>
@@ -2286,7 +2286,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Başka bir cihaz bağla</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Sekme göndermek için başka bir cihazdan daha Firefox’a giriş yapmalısınız.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Sekme göndermek için başka bir cihazdan daha Iceraven’a giriş yapmalısınız.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Anladım</string>
   <!-- Share error message -->
@@ -2299,9 +2299,9 @@
   <string name="sync_add_new_device_learn_button">Sekme gönderme hakkında bilgi alın…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">Başka bir cihaz bağla…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Iceraven) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\n%2$s ile paylaşıldı 🦊 Mobil tarayıcıyı deneyin: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Iceraven) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\n%2$s ile paylaşıldı 🦊 %3$s</string>
   <!--
     Notifications
@@ -2318,12 +2318,12 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox hem hızlı hem de gizli</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Iceraven hem hızlı hem de gizli</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Firefox’u varsayılan tarayıcınız yapın</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Iceraven’u varsayılan tarayıcınız yapın</string>
   <!-- Title shown in the notification that pops up to re-engage the user -->
   <string name="notification_re_engagement_title" tools:ignore="UnusedResources" moz:removedIn="150">Gizli gezintiyi deneyin</string>
   <!--
@@ -2348,7 +2348,7 @@
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Kısa bir ankete katılarak Firefox’u iyileştirmemize yardımcı olabilirsiniz.</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Kısa bir ankete katılarak Iceraven’u iyileştirmemize yardımcı olabilirsiniz.</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">Ankete katıl</string>
   <!-- Preference for not taking the short survey. -->
@@ -2375,7 +2375,7 @@
   <string name="snackbar_deleted_undo">GERİ AL</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Iceraven"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">%1$s uygulamasının %2$s adresini açmasına izin ver</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2447,7 +2447,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Bugün ve dün</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Her şey</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Iceraven"). -->
   <string name="delete_browsing_data_prompt_message_3">%s seçili gezinti verilerini silecek.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">İptal</string>
@@ -2486,16 +2486,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Kodu tarayın</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Bilgisayarınızda Firefox’u açıp <b>https://firefox.com/pair</b> adresine gidin]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[Bilgisayarınızda Iceraven’u açıp <b>https://firefox.com/pair</b> adresine gidin]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Taramaya hazırım</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Kameranızla giriş yapın</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">E-posta ile giriş yap</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Hesabınız yok mu? Firefox’u cihazlar arasında eşitlemek için <u>hesap açın</u>.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Iceraven' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Hesabınız yok mu? Iceraven’u cihazlar arasında eşitlemek için <u>hesap açın</u>.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Iceraven"). -->
   <string name="sign_out_confirmation_message_2">%s artık hesabınızla eşitlenmeyecek ama bu cihazdaki gezinti geçmişiniz silinmeyecek.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Bağlantıyı kes</string>
@@ -2513,7 +2513,7 @@
   <string name="preference_enhanced_tracking_protection">Gelişmiş izlenme koruması</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">Siteler arası takip kodlarına karşı en güçlü korumamız olan Komple Çerez Koruması da içinde.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Iceraven"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s, internette ne yaptığınızı öğrenmeye çalışan takip kodlarının çoğundan sizi korur.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">Daha fazla bilgi al</string>
@@ -2639,11 +2639,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Geri git</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Iceraven"). -->
   <string name="about_whats_new">%s tarayıcısında yeni neler var?</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Iceraven")
   -->
   <string name="open_source_licenses_title">%s | OSS Kitaplıkları</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2740,7 +2740,7 @@
   <string name="preference_doh_provider_custom_dialog_add">Ekle</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">İstisnalar</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Iceraven"). -->
   <string name="preference_doh_exceptions_summary">%1$s, bu sitelerde ve alt alan adlarında güvenli DNS kullanmayacaktır.</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">Site ekle</string>
@@ -2806,9 +2806,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Kaydetmeyi sor</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Asla kaydetme</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Iceraven (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">%1$s ile otomatik doldur</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Iceraven (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">%1$s kullanırken web sitelerinde kullanıcı adı ve parolalar doldurulup kaydedilsin.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Diğer uygulamalarda otomatik doldur</string>
@@ -2822,15 +2822,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">Parolaları cihazlar arasında eşitle</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">Kayıtlı parolalar</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">%s tarayıcısına kaydettiğiniz veya eşitlediğiniz parolalar burada listelenecektir. Kaydettiğiniz tüm parolalar şifrelenir.</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">Eşitlemeyle ilgili bilgi al</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">İstisnalar</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">%s, burada listelenen sitelerin parolalarını kaydetmeyecektir.</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_exceptions_description_2">%s bu sitelerin parolalarını kaydetmeyecektir.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">Tüm istisnaları sil</string>
@@ -2922,11 +2922,11 @@
   <string name="preferences_email_masks_suggest_summary">Gelen kutunuzu spam’den korumak için gerçek e-postanızı gizleyin. Bazı siteler e-posta maskelerini desteklemez.</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">Daha fazla bilgi al</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Iceraven Relay dashboard -->
   <string name="preferences_email_masks_manage_title">E-posta maskelerini yönet</string>
   <!-- The message displayed when a user has used all of their free-tier email masks, so now the application will choose an existing one at random. -->
   <string name="email_masks_max_free_tier_reached">5 ücretsiz e-posta maskesi hakkınız dolduğundan mevcut maskelerinizden birini sizin için seçtik.</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Iceraven Account services. -->
   <string name="email_masks_error_retrieving_masks">E-posta maskeleri şu anda kullanılamıyor. Birkaç dakika sonra yeniden deneyin.</string>
   <!--
     Autofill
@@ -2940,7 +2940,7 @@
   <string name="preferences_credit_cards_2">Ödeme yöntemleri</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">Ödeme yöntemlerini kaydet ve doldur</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s kaydettiğiniz tüm ödeme yöntemlerini şifreler</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">Kartları cihazlar arasında eşitle</string>
@@ -3215,13 +3215,13 @@
   <string name="synced_tabs_connect_another_device">Başka bir cihaz bağlayın.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Lütfen yeniden giriş yapın.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Iceraven Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Lütfen sekme eşitlemeyi etkinleştirin.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Diğer cihazlarınızdaki Firefox’larda hiç açık sekme yok.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Diğer cihazlarınızdaki Iceraven’larda hiç açık sekme yok.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Iceraven Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Diğer cihazlarınızdaki sekmelerin listesini görün.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Iceraven Sync -->
   <string name="synced_tabs_sign_in_button">Sync’e giriş yapın</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Açık sekme yok</string>
@@ -3296,7 +3296,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Bir ay sonra kendiliğinden kapatılsın mı?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox, bir aydır bakmadığınız sekmeleri kapatabilir.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Iceraven, bir aydır bakmadığınız sekmeleri kapatabilir.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">OTOMATİK KAPATMAYI AÇ</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -3304,9 +3304,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Iceraven Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox Önerileri</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Iceraven Önerileri</string>
   <!--
     Search suggestions title for trending search suggestions.
     %s is a placeholder for the name of the search engine providing the trending search suggestions.
@@ -3325,7 +3325,7 @@
   -->
   <string name="default_browser_experiment_card_title">Varsayılan tarayıcınızı değiştirin</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Web siteleri, e-postalar ve mesajlardaki bağlantılar otomatik olarak Firefox’ta açılsın.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Web siteleri, e-postalar ve mesajlardaki bağlantılar otomatik olarak Iceraven’ta açılsın.</string>
   <!-- Content description for close button in collection placeholder. -->
   <string name="remove_home_collection_placeholder_content_description">Kaldır</string>
   <!-- Content description radio buttons with a link to more information -->
@@ -3395,11 +3395,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">Sayfa %1$s dilinden %2$s diline çevrildi</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="translations_bottom_sheet_title_first_time">%1$s ile gizli çevirileri deneyin</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">Gizliliğinizi korumak için çeviriler asla cihazınızdan dışarı çıkmaz. Yeni diller ve gelişmeler de yolda! %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Iceraven translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">Daha fazla bilgi al</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">Bu dilden</string>
@@ -3460,7 +3460,7 @@
   <string name="translation_option_bottom_sheet_switch_description">Çeviri tekliflerini geçersiz kılar</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">Çeviri ayarları</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="translation_option_bottom_sheet_about_translations">%1$s çevirileri hakkında</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">Çeviriler sayfasını kapat</string>
@@ -3500,15 +3500,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">Çevirmeyi öner (varsayılan)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s bu dildeki siteleri çevirmeyi önerecek.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">Her zaman çevir</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">Sayfa yüklendiğinde %1$s bu dili otomatik olarak çevirecek.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">Asla çevirme</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">%1$s bu dildeki siteleri çevirmeyi asla önermeyecek.</string>
   <!--
     Never translate site preference screen
@@ -3590,7 +3590,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">%1$s (%2$s) silinsin mi?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="delete_language_file_dialog_message">Bu dili silerseniz %1$s çeviri sırasında dillerin bir kısmını önbelleğinize indirir.</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3598,7 +3598,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">Tüm diller (%1$s) silinsin mi?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="delete_language_all_languages_file_dialog_message">Tüm dilleri silerseniz %1$s siz çeviri yaparken dillerin bir kısmını önbelleğinize indirir.</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">Sil</string>
@@ -3633,12 +3633,12 @@
   <string name="protection_panel_banner_not_protected_title">Korumaları kapattınız</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Iceraven").
   -->
   <string name="protection_panel_banner_not_protected_description">%s korumaları kapalı. Korumaları yeniden açmanızı öneririz.</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Iceraven").
   -->
   <string name="protection_panel_banner_protected_title">%s çalışıyor</string>
   <!-- Description text for the protection panel banner when tracking protection is enabled. -->
@@ -3676,7 +3676,7 @@
     %s is a placeholder for the name of the tracker category.
     %d is a placeholder for the number of trackers blocked.
   -->
-  <string name="trackers_blocked_panel_categorical_num_trackers_blocked">%s: %d</string>
+  <string name="trackers_blocked_panel_categorical_num_trackers_blocked">%1$s: %2$d</string>
   <!--
     Description text for a dialog confirming whether the user wants to delete all data for current site.
     %s is a placeholder for the base domain of website.
@@ -3759,9 +3759,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Firefox’u iyileştirmemize yardım edin. Yalnızca birkaç dakika sürer.</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’u iyileştirmemize yardım edin. Yalnızca birkaç dakika sürer.</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">Devam et</string>
   <!--
@@ -3790,8 +3790,8 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">Hiç memnun değilim</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">Kullanmıyorum</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Firefox’ta arama özelliğini kullanmıyorum</string>
+  <!-- Option for likert scale. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Iceraven’ta arama özelliğini kullanmıyorum</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">Eşitlemeyi kullanmıyorum</string>
   <!-- Option for likert scale -->
@@ -3802,30 +3802,30 @@
   <string name="likert_scale_option_confusing_or_hard_to_use" tools:ignore="UnusedResources">Kafa karıştırıcı veya kullanımı zor</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_its_okay" tools:ignore="UnusedResources">Fena değil ama diğer tarayıcılardan daha iyi değil</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">Firefox’u kullanmaya devam etmeyi planlıyorum</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Firefox’un yazdırma özelliğini iyileştirmemize yardım edin. Yalnızca birkaç saniyenizi alacağız</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Firefox’ta aramayı iyileştirmemize yardım edin. Yalnızca birkaç dakika sürer</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Firefox’ta eşitlemeyi iyileştirmemize yardım edin. Yalnızca birkaç dakika sürer</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Firefox’ta yazdırma işleminden ne kadar memnunsunuz?</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Firefox giriş sayfanızdan ne kadar memnunsunuz?</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Firefox’taki arama özelliğinden ne kadar memnunsunuz?</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Firefox’taki eşitleme özelliğinden ne kadar memnunsunuz?</string>
-  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Firefox’u geliştirmemize yardım edin. Şimdiye kadarki deneyiminizi hangisi en iyi şekilde tanımlar?</string>
+  <!-- Option for likert scale. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">Iceraven’u kullanmaya devam etmeyi planlıyorum</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’un yazdırma özelliğini iyileştirmemize yardım edin. Yalnızca birkaç saniyenizi alacağız</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’ta aramayı iyileştirmemize yardım edin. Yalnızca birkaç dakika sürer</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’ta eşitlemeyi iyileştirmemize yardım edin. Yalnızca birkaç dakika sürer</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’ta yazdırma işleminden ne kadar memnunsunuz?</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Iceraven giriş sayfanızdan ne kadar memnunsunuz?</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’taki arama özelliğinden ne kadar memnunsunuz?</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’taki eşitleme özelliğinden ne kadar memnunsunuz?</string>
+  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’u geliştirmemize yardım edin. Şimdiye kadarki deneyiminizi hangisi en iyi şekilde tanımlar?</string>
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Iceraven" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Firefox logosu</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Iceraven logosu</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">Anket özelliği simgesi</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -3937,36 +3937,36 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Iceraven. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Iceraven's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">Şimdi güncelle</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Firefox tarayıcınızı güncelleyin</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card title about old Iceraven version. "Update" is a verb. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Iceraven tarayıcınızı güncelleyin</string>
+  <!-- Homepage card message about old Iceraven version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">14 Mart’ta bir kök sertifikasının süresi dolacağı için bu tarihten sonra bazı özellikler çalışmayacaktır.</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Iceraven version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">14 Mart’tan önce güncelleyin</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">Bir kök sertifikasının süresi dolacağı için Firefox sürümünüz artık düzgün çalışmayabilir.</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">Bir kök sertifikasının süresi dolacağı için Iceraven sürümünüz artık düzgün çalışmayabilir.</string>
+  <!-- Homepage card title about old Iceraven version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">Güncelleme yapmak için 7 günden az süreniz kaldı</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">14 Mart’ta bir kök sertifikasının süresi dolacağı için bu tarihten sonra eklentiler ve bazı Firefox özellikleri çalışmayacaktır.</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Firefox’u kullanmaya devam etmek için son şansınız</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">14 Mart’ta bir kök sertifikasının süresi dolacağı için bu tarihten sonra Firefox sürümünüz düzgün çalışmayacak.</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">14 Mart’ta bir kök sertifikasının süresi dolacağı için bu tarihten sonra eklentiler ve bazı Iceraven özellikleri çalışmayacaktır.</string>
+  <!-- Homepage card title about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’u kullanmaya devam etmek için son şansınız</string>
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">14 Mart’ta bir kök sertifikasının süresi dolacağı için bu tarihten sonra Iceraven sürümünüz düzgün çalışmayacak.</string>
+  <!-- Push notification title about old Iceraven version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">Önerilen güncelleme</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Iceraven version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">Eklentiler ve bazı özellikler 14 Mart’tan sonra çalışmayacak.</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">Firefox’un eski bir sürümünü kullanıyorsunuz</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification title about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">Iceraven’un eski bir sürümünü kullanıyorsunuz</string>
+  <!-- Push notification message about old Iceraven version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">Eklentileri ve diğer özellikleri kullanmaya devam edebilmek için 14 Mart’tan önce tarayıcınızı güncelleyin.</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Iceraven version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">Bazı özellikler yarından itibaren çalışmayacak.</string>
   <!-- TextField Design System Component -->
 
@@ -3975,7 +3975,7 @@
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_title_state_incomplete">%1$s kurulumunu tamamlayın</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -3983,19 +3983,19 @@
   <!--
     ===== Setup checklist feature: Subtitles for 3 steps =====
 
-    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_3_steps_initial_state">En iyi gezinti deneyimi için bu 3 adımı tamamlayarak %1$s tarayıcınızı ayarlayın.</string>
   <!-- Subtitle for a setup checklist with 3 steps when the first task is completed. -->
   <string name="setup_checklist_subtitle_3_steps_first_step">İyi başladınız! 3 adımdan 1’ini tamamladınız.</string>
   <!-- Subtitle for a setup checklist with 3 steps when two of the tasks are completed. -->
   <string name="setup_checklist_subtitle_3_steps_second_step">Az kaldı! İki adım bitti, sıra son adımda.</string>
-  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_3_steps_completed_state">Üç adımı da tamamladınız. %1$s ile hız, gizlilik ve güvenliğin tadını çıkarın.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 6 steps =====
 
-    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_6_steps_initial_state">En iyi gezinti deneyimi için bu 6 adımı tamamlayarak %1$s tarayıcınızı ayarlayın.</string>
   <!-- Subtitle for a setup checklist with 6 steps when the first task is completed. -->
@@ -4008,12 +4008,12 @@
   <string name="setup_checklist_subtitle_6_steps_fourth_step">4 adımı tamamladınız. Son 2 adım daha!</string>
   <!-- Subtitle for a setup checklist with 6 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_6_steps_fifth_step">Bitmek üzere! Bitiş çizgisine sadece 1 adım kaldı.</string>
-  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_6_steps_completed_state">6 adımı da tamamladınız. %1$s ile hız, gizlilik ve güvenliğin tadını çıkarın.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 5 steps (Large screen devices don't support toolbar placement) =====
 
-    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_5_steps_initial_state">En iyi gezinti deneyimi için bu 5 adımı tamamlayarak %1$s tarayıcınızı ayarlayın.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the first task is completed. -->
@@ -4024,7 +4024,7 @@
   <string name="setup_checklist_subtitle_5_steps_third_step">Yarısını bitirdiniz! Üç adım bitti, iki adım kaldı.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_5_steps_fourth_step">Bitmek üzere! Bitiş çizgisine sadece 1 adım kaldı.</string>
-  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_5_steps_completed_state">5 adımı da tamamladınız. %1$s ile hız, gizlilik ve güvenliğin tadını çıkarın.</string>
   <!--
     ===== Setup checklist feature: Task titles =====
@@ -4045,10 +4045,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_group_essentials">%1$s temelleri</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_group_customize">%1$s tarayıcınızı özelleştirin</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">Faydalı araçlar</string>
@@ -4091,18 +4091,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="review_prompt_pre_prompt_header">%1$s hakkında ne düşünüyorsunuz?</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">Sorun yaşıyorum</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">Harika!</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_rate_header">%1$s uygulamasını beğenmenize sevindik. Birkaç saniyenizi ayırıp bize puan verir misiniz?</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_rate_button">%1$s uygulamasına Play Store’da puan ver</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_feedback_header">Sorun yaşamanıza üzüldük. %1$s uygulamasını nasıl geliştirebileceğimizi bize bildirin.</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">Görüş bildir</string>
@@ -4134,7 +4134,7 @@
   <string name="terms_of_use_prompt_title">Bir haberimiz var</string>
   <!--
     Message for the terms of use pop up prompt
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Iceraven"
     %2$s is the string terms_of_use_prompt_link_terms_of_use (Terms of Use) that is a link to the terms of use
     %3$s is the string terms_of_use_prompt_link_privacy_notice (Privacy Notice) that is a link to the privacy notice
   -->
@@ -4160,7 +4160,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">Kullanım Koşulları</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Iceraven"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">%1$s’tan bir not</string>
   <!--
@@ -4175,11 +4175,11 @@
   <!--
     Privacy notice homepage banner
 
-    A message we show the user on the homepage when there is a new version of the privacy notice. 'Firefox' is intentionally hardcoded.
+    A message we show the user on the homepage when there is a new version of the privacy notice. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link using privacy_notice_updated_homepage_message_privacy_notice as text (Privacy Notice)
     %2$s is replaced by an active link using privacy_notice_updated_homepage_message_learn_more as text (Learn more)
   -->
-  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">%1$smizi Firefox’taki en yeni özellikleri yansıtacak şekilde güncelledik. %2$s</string>
+  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">%1$smizi Iceraven’taki en yeni özellikleri yansıtacak şekilde güncelledik. %2$s</string>
   <!-- The first active link used in privacy_notice_updated_homepage_message -->
   <string name="privacy_notice_updated_homepage_message_privacy_notice" tools:ignore="UnusedResources">Gizlilik Bildirimi</string>
   <!-- The second active link used in privacy_notice_updated_homepage_message -->

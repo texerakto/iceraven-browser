@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:moz="http://mozac.org/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Iceraven"). -->
   <string name="app_name_private_5">%s プライベートモード</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Iceraven"). -->
   <string name="app_name_private_4">%s (プライベート)</string>
   <!--
     Home Fragment
@@ -37,7 +37,7 @@
   <string name="no_private_tabs_description" tools:ignore="UnusedResources" moz:removedIn="149">プライベートタブがここに表示されます。</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">プライベートブラウジング</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Iceraven") -->
   <string name="tab_manager_empty_private_tabs_page_description">%1$s は履歴や Cookie を保存しませんが、新しいブックマークは保存できます。</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">新しいタブで検索を開始します</string>
@@ -73,8 +73,8 @@
   <string name="home_bookmarks_show_all_content_description">すべてのブックマークを表示</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">削除</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content">%1$s は Mozilla の製品です。</string>
+  <!-- About content. %1$s is the name of the app (for example "Iceraven"). -->
+  <string name="about_content">%1$s は @forkmaintainers の製品です。</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">プライベートブラウジングについての誤解</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -87,7 +87,7 @@
   <string name="felt_privacy_desc_card_title">この端末を追跡させません</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="felt_privacy_info_card_subtitle_3">すべてのプライベートタブを閉じると、%1$s により Cookie、履歴、サイトデータが削除されます。</string>
   <!--
@@ -99,7 +99,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="open_in_app_cfr_info_message_2">リンクを外部アプリで自動的に開くよう %1$s を設定できます。</string>
   <!-- Text for the positive action button -->
@@ -134,7 +134,7 @@
   <string name="tab_tray_inactive_auto_close_title">1 か月後に自動的に閉じますか？</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">%1$s は 1 か月以上表示していないタブを閉じることができます。</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -253,17 +253,17 @@
   <string name="browser_menu_homepage">ホームページ</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_open_in_fenix">%1$s で開く</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_powered_by" tools:ignore="UnusedResources" moz:removedIn="149">POWERED BY %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_powered_by2">Powered by %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -330,12 +330,12 @@
   <string name="browser_menu_print_2">印刷</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">%1$s を終了</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_default_banner_title">%1$s を既定のブラウザーにしましょう</string>
   <!-- Label text within the set as default banner -->
@@ -412,7 +412,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">許可しない</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">プライベートセッションで検索候補を表示しますか？</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Iceraven"). -->
   <string name="search_suggestions_onboarding_text">%s のアドレスバーに入力したすべての語句が既定の検索エンジンと共有されます。</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">%s で検索</string>
@@ -448,7 +448,7 @@
 
     Description for learning more about our privacy notice.
   -->
-  <string name="juno_onboarding_privacy_notice_text" tools:ignore="BrandUsage">Firefox のプライバシー通知</string>
+  <string name="juno_onboarding_privacy_notice_text" tools:ignore="BrandUsage">Iceraven のプライバシー通知</string>
   <!-- Title for set firefox as default browser screen used by Nimbus experiments. -->
   <string name="juno_onboarding_default_browser_title_nimbus_2">私たちはあなたの安全を守りたいと願っています</string>
   <!-- Description for set firefox as default browser screen used by Nimbus experiments. -->
@@ -461,84 +461,84 @@
   <string name="juno_onboarding_sign_in_title_2">端末間の移動時に暗号化した状態を維持します</string>
   <!--
     Description for sign in to sync screen. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_sign_in_description_3" tools:ignore="BrandUsage">Firefox は同期時にパスワードやブックマークなどを暗号化します。</string>
+  <string name="juno_onboarding_sign_in_description_3" tools:ignore="BrandUsage">Iceraven は同期時にパスワードやブックマークなどを暗号化します。</string>
   <!-- Text for the button to sign in to sync on the device -->
   <string name="juno_onboarding_sign_in_positive_button" tools:ignore="UnusedResources">ログイン</string>
   <!-- Text for the button dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_sign_in_negative_button" tools:ignore="UnusedResources">後で</string>
   <!--
     Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_enable_notifications_title_nimbus_2" tools:ignore="BrandUsage">通知をオンにして Firefox で安全性を高めましょう</string>
+  <string name="juno_onboarding_enable_notifications_title_nimbus_2" tools:ignore="BrandUsage">通知をオンにして Iceraven で安全性を高めましょう</string>
   <!--
     Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_enable_notifications_description_nimbus_2" tools:ignore="BrandUsage">端末間で安全にタブを送信するなど、Firefox の他のプライバシー機能を見つけましょう。</string>
+  <string name="juno_onboarding_enable_notifications_description_nimbus_2" tools:ignore="BrandUsage">端末間で安全にタブを送信するなど、Iceraven の他のプライバシー機能を見つけましょう。</string>
   <!-- Text for the button to request notification permission on the device -->
   <string name="juno_onboarding_enable_notifications_positive_button" tools:ignore="UnusedResources">通知をオンにする</string>
   <!-- Text for the button dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_enable_notifications_negative_button" tools:ignore="UnusedResources">後で</string>
   <!--
     Title for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_title" tools:ignore="BrandUsage,UnusedResources">Firefox 検索ウィジェットをお試しください</string>
+  <string name="juno_onboarding_add_search_widget_title" tools:ignore="BrandUsage,UnusedResources">Iceraven 検索ウィジェットをお試しください</string>
   <!--
     Description for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_description" tools:ignore="BrandUsage,UnusedResources">Firefox をホーム画面に置いておくと、クロスサイトトラッカーをブロックするプライバシー優先のブラウザーに簡単にアクセスできます。</string>
+  <string name="juno_onboarding_add_search_widget_description" tools:ignore="BrandUsage,UnusedResources">Iceraven をホーム画面に置いておくと、クロスサイトトラッカーをブロックするプライバシー優先のブラウザーに簡単にアクセスできます。</string>
   <!--
     Text for the button to add search widget on the device used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="BrandUsage,UnusedResources">Firefox ウィジェットを追加</string>
+  <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="BrandUsage,UnusedResources">Iceraven ウィジェットを追加</string>
   <!-- Text for the button to dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_add_search_widget_negative_button" tools:ignore="UnusedResources">後で</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Firefox の改善にご協力ください</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Iceraven の改善にご協力ください</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">クラッシュレポートを自動的に送信</string>
   <!-- Description for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_description">クラッシュレポートが送信されることにより、ブラウザーの問題の診断と修正に役立てられます。レポートには個人情報や機密性の高い情報が含まれる場合があります。</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">詳細情報</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_title">%s を再起動する必要があります</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_body">%s の起動時に問題が発生しました。\n\n送信されるクラッシュレポートは、ブラウザーの問題の診断と修正に役立てられます。レポートには個人情報や機密性の高い情報が含まれる場合があります。</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">クラッシュレポートを送信</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">いいえ、結構です</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_restart">%s を再起動</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title">技術データと対話データを Mozilla に送信する</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">端末、ハードウェア構成、Firefox の使用状況に関するデータは、すべてのユーザーのために、機能やパフォーマンス、安定性の向上に役立てられます。</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">端末、ハードウェア構成、Iceraven の使用状況に関するデータは、すべてのユーザーのために、機能やパフォーマンス、安定性の向上に役立てられます。</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">詳細情報</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">完了</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Firefox へようこそ</string>
+  <!-- Terms of service onboarding title card label. 'Iceraven' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Iceraven へようこそ</string>
   <!-- Terms of service sub header label. -->
   <string name="onboarding_terms_of_service_sub_header_2">高速で安全なウェブブラウジング</string>
   <!-- Terms of service onboarding page continue button label. -->
   <string name="onboarding_term_of_service_agree_and_continue_button_label_2">続ける</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Iceraven Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">続けると、%1$s に同意したものとみなされます。</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Firefox 利用規約</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Firefox はあなたのプライバシーを重視します。詳細は %1$s をご覧ください。</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Iceraven 利用規約</string>
+  <!-- Line two of the terms of service onboarding page. 'Iceraven' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">Iceraven はあなたのプライバシーを重視します。詳細は %1$s をご覧ください。</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">プライバシー通知</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">ブラウザーの改善に役立てるため、Firefox は診断情報と対話データを Mozilla に送信します。%1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Iceraven' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">ブラウザーの改善に役立てるため、Iceraven は診断情報と対話データを Mozilla に送信します。%1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">管理</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -551,23 +551,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">数千のカスタマイズ</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Iceraven Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">続けると、%1$s に同意したものとみなされます。</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Firefox 利用規約</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Iceraven 利用規約</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Firefox はあなたのプライバシーを重視します。詳細は %1$s をご覧ください。</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">Iceraven はあなたのプライバシーを重視します。詳細は %1$s をご覧ください。</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">プライバシー通知</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">ブラウザーの改善に役立てるため、Firefox は診断情報と対話データを Mozilla に送信します。%1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">ブラウザーの改善に役立てるため、Iceraven は診断情報と対話データを Mozilla に送信します。%1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">設定を管理</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -576,10 +576,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">アドレスバーをどこに配置したいですか？</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">続ける</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage,UnusedResources">Firefox の成長にご協力ください</string>
+  <!-- Marketing onboarding page title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage,UnusedResources">Iceraven の成長にご協力ください</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Firefox を見つけた経緯や、Firefox を使用していることを Mozilla のマーケティングパートナーと共有してください。このデータは決して販売されません。</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Iceraven を見つけた経緯や、Iceraven を使用していることを Mozilla のマーケティングパートナーと共有してください。このデータは決して販売されません。</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">データの使途</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -588,18 +588,18 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">初期設定で自動トラッキング防止</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">タップ一つで企業によるクリックの監視を阻止できます。</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Firefox をどこでも同期</string>
+  <!-- Sync onboarding redesign title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Iceraven をどこでも同期</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">ブックマーク、タブ、パスワードをどの端末でも利用できます。すべて暗号で保護されます。</string>
   <!-- Sync onboarding redesign positive button text. -->
   <string name="onboarding_redesign_sync_positive_button" tools:ignore="UnusedResources">同期を開始</string>
   <!-- Sync onboarding redesign negative button text. -->
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">後で</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_title" tools:ignore="BrandUsage,UnusedResources">Firefox の成長に協力する</string>
-  <!-- Marketing onboarding page body. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Firefox を見つけた経緯や使用していることを共有していただくことで、より多くの人に私たちのブラウザーを紹介できます。</string>
+  <!-- Marketing onboarding page title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_title" tools:ignore="BrandUsage,UnusedResources">Iceraven の成長に協力する</string>
+  <!-- Marketing onboarding page body. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Iceraven を見つけた経緯や使用していることを共有していただくことで、より多くの人に私たちのブラウザーを紹介できます。</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
   <string name="onboarding_marketing_opt_out_checkbox">Mozilla のマーケティング技術パートナーとデータを共有します。このデータは販売されたり、広告の表示に利用されたりすることはありません。</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
@@ -608,8 +608,8 @@
   <string name="onboarding_marketing_positive_button" tools:ignore="UnusedResources">確認してブラウジングを開始</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">最後に</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Firefox を見つけた経緯や、Firefox を使用していることを Mozilla のマーケティングパートナーと共有してください。このデータは決して販売されません。</string>
+  <!-- Marketing onboarding page body variant. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Iceraven を見つけた経緯や、Iceraven を使用していることを Mozilla のマーケティングパートナーと共有してください。このデータは決して販売されません。</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">同意してブラウジングを開始</string>
   <!-- ==== Project "Nova" onboarding strings ==== -->
@@ -624,23 +624,23 @@
   <string name="nova_onboarding_tou_subtitle">高速、安全、そして決してあなたを裏切ることはありません。\nブラウジングがさらに快適になりました。</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Iceraven Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">続けると、%1$s に同意したものとみなされます。</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Firefox 利用規約</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Iceraven 利用規約</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Firefox はあなたのプライバシーを重視します。詳細は %1$s をご覧ください。</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">Iceraven はあなたのプライバシーを重視します。詳細は %1$s をご覧ください。</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">プライバシー通知</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">ブラウザーの改善に役立てるため、Firefox は診断情報と対話データを Mozilla に送信します。%1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">ブラウザーの改善に役立てるため、Iceraven は診断情報と対話データを Mozilla に送信します。%1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">設定を管理</string>
   <!-- "Set to default" onboarding title. -->
@@ -674,24 +674,24 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">より良いインターネットの構築にご協力ください</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage">Firefox を見つけた経緯や、Firefox を使用していることを Mozilla のマーケティングパートナーと共有してください。このデータは決して販売されません。%1$s</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage">Iceraven を見つけた経緯や、Iceraven を使用していることを Mozilla のマーケティングパートナーと共有してください。このデータは決して販売されません。%1$s</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text">データの使途</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">通知をオンにして Firefox で安全性を高めましょう</string>
-  <!-- Notifications onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Firefox の最新のプライバシー機能を発見して、常に最新の保護方法を把握しましょう。</string>
+  <!-- Notifications onboarding title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">通知をオンにして Iceraven で安全性を高めましょう</string>
+  <!-- Notifications onboarding subtitle. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Iceraven の最新のプライバシー機能を発見して、常に最新の保護方法を把握しましょう。</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">通知をオンにする</string>
   <!-- "Add search widget" onboarding title. -->
   <string name="nova_onboarding_add_search_widget_title">すべての検索をよりプライベートに</string>
-  <!-- "Add search widget" onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">すべての検索をスマートフォンのホーム画面から開始しましょう。Firefox の自動保護機能があなたをサポートします。</string>
-  <!-- "Add search widget" onboarding button. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Firefox ウィジェットを追加</string>
+  <!-- "Add search widget" onboarding subtitle. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">すべての検索をスマートフォンのホーム画面から開始しましょう。Iceraven の自動保護機能があなたをサポートします。</string>
+  <!-- "Add search widget" onboarding button. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Iceraven ウィジェットを追加</string>
   <!-- ==== End of Project "Nova" onboarding strings ==== -->
 
   <!-- Onboarding header for the toolbar selection card, used by Nimbus experiments. -->
@@ -738,7 +738,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="search_widget_content_description_2">%1$s の新しいタブで開く</string>
   <!-- Text preview for smaller sized widgets -->
@@ -777,15 +777,15 @@
   <string name="preferences_search_engines_suggestions">検索エンジンからの検索候補</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">アドレスバーの設定</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">アドレスバー - Firefox Suggest</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Firefox Suggest について</string>
+  <!-- Preference Category for settings to Iceraven Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">アドレスバー - Iceraven Suggest</string>
+  <!-- Preference link to Learn more about Iceraven Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Iceraven Suggest について</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">Google Play で評価する</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_about">%1$s について</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -836,13 +836,13 @@
   <string name="reduce_cookie_banner_details_panel_title_on_for_site_1">%1$s で Cookie バナーブロッカーをオンにしますか？</string>
   <!-- Title text for a detail explanation indicating cookie banner handling is off this site, this is shown as part of the cookie banner panel in the toolbar. %1$s is a shortened URL of the current site. -->
   <string name="reduce_cookie_banner_details_panel_title_off_for_site_1">%1$s で Cookie バナーブロッカーをオフにしますか？</string>
-  <!-- Title text for a detail explanation indicating cookie banner reducer didn't work for the current site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title text for a detail explanation indicating cookie banner reducer didn't work for the current site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_title_unsupported_site_request_2">%1$s は現在、このサイトの Cookie 使用要求を自動的に拒否できません。このサイトへの対処を要求してください。</string>
-  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is off for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is off for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_description_off_for_site_1">オフにすると、%1$s に保存された Cookie を消去してこのサイトを再読み込みします。サイトからログアウトしたり、買い物かごが空になったりする場合があります。</string>
-  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is on for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is on for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_description_on_for_site_3">オンにすると、このサイトのすべての Cookie バナーに対して %1$s が自動的に拒否を試みます。</string>
-  <!-- Title for the cookie banner re-engagement CFR, the placeholder is replaced with app name. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the cookie banner re-engagement CFR, the placeholder is replaced with app name. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="cookie_banner_cfr_title">%1$s が Cookie を拒否しました</string>
   <!-- Message for the cookie banner re-engagement CFR -->
   <string name="cookie_banner_cfr_message">このサイトに集中でき、Cookie による追跡も減少します。</string>
@@ -930,27 +930,27 @@
   <string name="preferences_account_settings">アカウント設定</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">自動補完 URL</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Iceraven Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">スポンサーからの提案</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Iceraven Suggest search suggestions.
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">スポンサーからの提案を随時表示して %1$s を支援します</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Iceraven Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_show_nonsponsored_suggestions">%1$s からの提案</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Iceraven Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">検索語句に関連した提案をウェブから取得します</string>
   <!-- Preference title for switch preference to show search optimization cards -->
   <string name="preferences_show_search_optimization_cards">入力に応じて Mozilla からの候補を取得する</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">リンク共有</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="link_sharing_toggle_title">WhatsApp での共有に %1$s のダウンロードリンクを含める</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="link_sharing_toggle_body">WhatsApp でリンクを共有するたびに、%1$s のより高速で安全なブラウジングを友人に勧めます。</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">リンクを共有しました</string>
@@ -975,7 +975,7 @@
   <string name="preference_downloads_folder_permission_lost" tools:ignore="UnusedResources">このフォルダーを使用する権限がありません。別のフォルダーを選択してください。</string>
   <!-- Preference title for choosing an app to handle downloads -->
   <string name="preferences_choose_app_for_downloads">別のアプリでダウンロードを管理する</string>
-  <!-- Title for the setting to automatically clean up downloaded files. %s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the setting to automatically clean up downloaded files. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_downloads_settings_clean_up_files_title">%s および端末から削除</string>
   <!-- Summary for the setting to automatically clean up downloaded files -->
   <string name="preferences_downloads_settings_clean_up_files_summary">ダウンロードマネージャーでファイルを削除すると、端末からも削除されます</string>
@@ -1070,7 +1070,7 @@
   <string name="wallpaper_select_error_snackbar_message">壁紙を変更できませんでした</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">詳細情報</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Iceraven"). -->
   <string name="wallpaper_classic_title">%s の定番</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">アーティストシリーズ</string>
@@ -1118,11 +1118,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">真夜中</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">オーロラ</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Iceraven logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">レトロ 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">ピクセル</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Iceraven logo. -->
   <string name="alternative_app_icon_option_minimal">モノクロ</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">プライド</string>
@@ -1132,9 +1132,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">Created by @heyheymomodraws</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">抱っこ</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Iceraven logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">炎上</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Iceraven logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">クール</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">無地</string>
@@ -1144,9 +1144,9 @@
   <string name="alternative_app_icon_group_featured">注目</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">アプリアイコンを変更しますか？</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="restart_warning_dialog_body_2">アプリを終了します。新しいアイコンをタップして %1$s を再起動してください。</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="restart_and_shortcuts_removal_warning_dialog_body">アイコンを変更すると、ホーム画面に保存したサイトとショートカットがすべて削除されます。\n\n%1$s が閉じられます。新しいアイコンをタップして再度開いてください。</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">アイコンを変更</string>
@@ -1160,8 +1160,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">新しい拡張機能が利用可能になりました</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">あなただけの Firefox にカスタマイズできる 100 以上の新しい拡張機能を確認してください。</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Iceraven' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">あなただけの Iceraven にカスタマイズできる 100 以上の新しい拡張機能を確認してください。</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">拡張機能を探す</string>
   <!--
@@ -1173,7 +1173,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="extension_process_crash_dialog_message">システムを不安定にしている 1 個以上の拡張機能が動作を停止しました。 %1$s による拡張機能の再起動が失敗しました。\n\n拡張機能は現在のセッション中に再起動されません。\n\n拡張機能を削除または無効にすることで、この問題を解決できるかもしれません。</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -1218,7 +1218,7 @@
   <string name="sync_never_synced_summary">最終同期日時: なし</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Iceraven"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%2$s %3$s 上の %1$s</string>
@@ -1233,7 +1233,7 @@
   -->
   <string name="fxa_received_tab_channel_name">受信したタブ</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">他の Firefox 端末から受信したタブの通知。</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">他の Iceraven 端末から受信したタブの通知。</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">受信したタブ</string>
   <!-- %s is the device name -->
@@ -1264,8 +1264,8 @@
   <string name="preference_usage_data_2">技術データと対話データを送信する</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">技術データについての詳細</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">端末、ハードウェア構成、アプリの使用状況に関するデータは、Firefox の機能やパフォーマンス、安定性の向上に役立てられます。</string>
+  <!-- Preference description for marketing data collection. Note: The words "Iceraven" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">端末、ハードウェア構成、アプリの使用状況に関するデータは、Iceraven の機能やパフォーマンス、安定性の向上に役立てられます。</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">毎日の使用頻度を送信する</string>
   <string name="preferences_daily_usage_ping_description">これは Mozilla がアクティブユーザー数を推定するのに役立ちます。</string>
@@ -1286,9 +1286,9 @@
   <string name="preferences_marketing_data_2">キャンペーン測定データ</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Iceraven" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Iceraven after installing it; not that Iceraven is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Firefox を見つけた経緯や、Firefox を使用していることを Mozilla のマーケティング技術パートナーと共有してください。</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Iceraven を見つけた経緯や、Iceraven を使用していることを Mozilla のマーケティング技術パートナーと共有してください。</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">マーケティングデータについての詳細</string>
   <!-- Title for studies preferences -->
@@ -1507,8 +1507,8 @@
   <string name="studies_active">有効</string>
   <!-- Description for studies -->
   <string name="studies_description_3" moz:removedIn="148" tools:ignore="UnusedResources">機能やアイデアを一般公開される前に試してみましょう。</string>
-  <!-- Description for studies. Note: The word "Firefox" should NOT be translated -->
-  <string name="studies_description_4" tools:ignore="BrandUsage">Firefox がユーザーをランダムに選択して機能をテストし、全体の品質を向上させます。</string>
+  <!-- Description for studies. Note: The word "Iceraven" should NOT be translated -->
+  <string name="studies_description_4" tools:ignore="BrandUsage">Iceraven がユーザーをランダムに選択して機能をテストし、全体の品質を向上させます。</string>
   <!-- Title of the Studies data preference -->
   <string name="studies_title" moz:removedIn="148" tools:ignore="UnusedResources">調査のインストールと実行</string>
   <!-- Title of the Studies data preference -->
@@ -1521,8 +1521,8 @@
     Title of the Remote Improvements (rollouts) data preference
   -->
   <string name="remote_improvements_title">リモートの機能向上を許可する</string>
-  <!-- Description for remote improvements. Note: The word "Firefox" should NOT be translated -->
-  <string name="remote_improvements_description" tools:ignore="BrandUsage">Firefox の機能、パフォーマンス、安定性は更新ごとに向上しています。変更はリモートで適用されます。</string>
+  <!-- Description for remote improvements. Note: The word "Iceraven" should NOT be translated -->
+  <string name="remote_improvements_description" tools:ignore="BrandUsage">Iceraven の機能、パフォーマンス、安定性は更新ごとに向上しています。変更はリモートで適用されます。</string>
   <!-- Learn more link for remote improvements, links to an article for more information about rollouts. -->
   <string name="remote_improvements_learn_more">詳細情報</string>
   <!-- Title for remote improvements preference in Advanced settings -->
@@ -1636,7 +1636,7 @@
   <string name="remove_top_site">削除</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">履歴から削除</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="pwa_site_controls_title_private">%1$s (プライベートモード)</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">タブ検索を開く</string>
@@ -1873,7 +1873,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">動作しないサイトを報告</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Iceraven") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">ご報告は、%1$s の問題を理解して解決し、すべての人にとって製品をより良くするために役立ちます。%2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">詳細情報</string>
@@ -1934,7 +1934,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="tab_crash_title_2">申し訳ありません。%1$s はそのページを読み込めません。</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1943,11 +1943,11 @@
   <string name="tab_crash_close">タブを閉じる</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">タブを復元</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crash_dialog_title_2">%s がクラッシュしました。レポートを送信しますか？</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">調査中のクラッシュと関連する未送信のクラッシュレポートが 1 件あります。レポートを送信すると %1$s の改善に役立てられます。この通知を閉じると、このレポートが無視されます。</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">調査中のクラッシュと関連する未送信のクラッシュレポート (%1$d 件) があります。レポートを送信すると %2$s の改善に役立てられます。この通知を閉じると、このレポートが無視されます。</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">クラッシュレポートを自動的に送信する</string>
@@ -2286,7 +2286,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">別の端末を接続</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">タブを送信するには、少なくとも 1 台の他の端末で Firefox にログインしてください。</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">タブを送信するには、少なくとも 1 台の他の端末で Iceraven にログインしてください。</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">OK</string>
   <!-- Share error message -->
@@ -2299,9 +2299,9 @@
   <string name="sync_add_new_device_learn_button">タブの送信について...</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">別の端末を接続...</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Iceraven) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\n%2$s から送信しました 🦊 モバイル版ブラウザーをお試しください: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Iceraven) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\n%2$s から送信しました 🦊 %3$s</string>
   <!--
     Notifications
@@ -2318,12 +2318,12 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Firefox は動作が軽く個人使用に最適です</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">Iceraven は動作が軽く個人使用に最適です</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Firefox を既定のブラウザーに設定しましょう</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Iceraven を既定のブラウザーに設定しましょう</string>
   <!-- Title shown in the notification that pops up to re-engage the user -->
   <string name="notification_re_engagement_title" tools:ignore="UnusedResources" moz:removedIn="150">プライベートブラウジングを試す</string>
   <!--
@@ -2348,7 +2348,7 @@
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Firefox の改善のために簡単なアンケートへの回答をお願いします。</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Iceraven の改善のために簡単なアンケートへの回答をお願いします。</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">アンケートに答える</string>
   <!-- Preference for not taking the short survey. -->
@@ -2375,7 +2375,7 @@
   <string name="snackbar_deleted_undo">元に戻す</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Iceraven"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">%2$s を開くことを %1$s に許可する</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2447,7 +2447,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">昨日と今日</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">すべての履歴</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Iceraven"). -->
   <string name="delete_browsing_data_prompt_message_3">選択した閲覧データを %s から削除します。</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">キャンセル</string>
@@ -2486,16 +2486,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">QR コードのスキャン</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[コンピューターの Firefox で <b>https://firefox.com/pair</b> を開いてください]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[コンピューターの Iceraven で <b>https://firefox.com/pair</b> を開いてください]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">スキャンの準備ができました</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">カメラを使ってログイン</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">代わりにメールアドレスを使う</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[アカウントをお持ちでない方は、<u>アカウントを作成</u>して Firefox を端末間で同期しましょう。]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Iceraven' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[アカウントをお持ちでない方は、<u>アカウントを作成</u>して Iceraven を端末間で同期しましょう。]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Iceraven"). -->
   <string name="sign_out_confirmation_message_2">%s はあなたのアカウントとの同期を中止しますが、この端末上の閲覧履歴は削除されません。</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">接続を解除</string>
@@ -2513,7 +2513,7 @@
   <string name="preference_enhanced_tracking_protection">強化型トラッキング防止</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">包括的 Cookie 保護が登場しました。これまでで最も強力なクロスサイトトラッカー遮断機能です。</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Iceraven"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">%s はインターネット上で個人の行動を追跡する数多くのトラッカーからあなたを守ります。</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">詳細情報</string>
@@ -2638,11 +2638,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">前のページへ戻る</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Iceraven"). -->
   <string name="about_whats_new">%s の新機能</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Iceraven")
   -->
   <string name="open_source_licenses_title">%s | OSS ライブラリー</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2739,7 +2739,7 @@
   <string name="preference_doh_provider_custom_dialog_add">追加</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">例外</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Iceraven"). -->
   <string name="preference_doh_exceptions_summary">%1$s はこれらのサイトおよびそのサブドメインで安全な DNS を利用しません。</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">サイトを追加</string>
@@ -2805,9 +2805,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">保存するか確認する</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">保存しない</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Iceraven (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">%1$s で自動入力する</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Iceraven (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">%1$s の使用中、ウェブサイトにユーザー名とパスワードを入力して保存します。</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">他のアプリで自動入力する</string>
@@ -2821,15 +2821,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">端末間でパスワードを同期</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">保存されたパスワード</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">%s に保存または同期したパスワードがこのリストに表示されます。保存されたすべてのパスワードは暗号化されます。</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">Sync についての詳細情報</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">例外</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">%s は、このリストに表示されているサイトのパスワードを保存しません。</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_exceptions_description_2">%s はこれらのサイトのパスワードを保存しません。</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">すべての例外を削除</string>
@@ -2921,11 +2921,11 @@
   <string name="preferences_email_masks_suggest_summary">受信トレイをスパムから守るため、実際のメールアドレスを隠します。一部のサイトではメールマスクがサポートされていません。</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">詳細情報</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Iceraven Relay dashboard -->
   <string name="preferences_email_masks_manage_title">メールマスクを管理</string>
   <!-- The message displayed when a user has used all of their free-tier email masks, so now the application will choose an existing one at random. -->
   <string name="email_masks_max_free_tier_reached">無料のメールマスク 5 個を使い切ったので、再利用する 1 個を選びました。</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Iceraven Account services. -->
   <string name="email_masks_error_retrieving_masks">メールマスクは現在ご利用いただけません。数分後にもう一度お試しください。</string>
   <!--
     Autofill
@@ -2939,7 +2939,7 @@
   <string name="preferences_credit_cards_2">支払い方法</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">支払い方法を保存して入力する</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">%s は保存したすべての支払い方法を暗号化します</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">端末間でカード情報を同期する</string>
@@ -3214,13 +3214,13 @@
   <string name="synced_tabs_connect_another_device">他の端末を接続してください。</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">再認証してください。</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Iceraven Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">タブの同期を有効にしてください。</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">他の端末の Firefox で開いているタブはありません。</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">他の端末の Iceraven で開いているタブはありません。</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Iceraven Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">他の端末のタブの一覧を表示できます。</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Iceraven Sync -->
   <string name="synced_tabs_sign_in_button">Sync にログイン</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">開いているタブはありません</string>
@@ -3295,7 +3295,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">1 か月後に自動的に閉じますか？</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Firefox は 1 か月以上表示していないタブを閉じることができます。</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">Iceraven は 1 か月以上表示していないタブを閉じることができます。</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">自動的に閉じる</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -3303,9 +3303,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Iceraven Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Firefox Suggest</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Iceraven Suggest</string>
   <!--
     Search suggestions title for trending search suggestions.
     %s is a placeholder for the name of the search engine providing the trending search suggestions.
@@ -3324,7 +3324,7 @@
   -->
   <string name="default_browser_experiment_card_title">既定のブラウザーを変更しませんか</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">ウェブサイトやメール、メッセージのリンクを自動的に Firefox で開きます。</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">ウェブサイトやメール、メッセージのリンクを自動的に Iceraven で開きます。</string>
   <!-- Content description for close button in collection placeholder. -->
   <string name="remove_home_collection_placeholder_content_description">削除</string>
   <!-- Content description radio buttons with a link to more information -->
@@ -3394,11 +3394,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">ページを %1$s から %2$s に翻訳しました</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="translations_bottom_sheet_title_first_time">%1$s でプライベート翻訳を試してください</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">プライバシーを重視し、翻訳データは端末内のみで処理されます。対応言語の追加と改善に乞うご期待！ %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Iceraven translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">詳細情報</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">翻訳元</string>
@@ -3459,7 +3459,7 @@
   <string name="translation_option_bottom_sheet_switch_description">翻訳機能の設定を上書きします</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">翻訳設定</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="translation_option_bottom_sheet_about_translations">%1$s の翻訳機能について</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">翻訳シートを閉じる</string>
@@ -3499,15 +3499,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">翻訳を通知する (既定)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s がサイトをこの言語に翻訳可能であることを通知します。</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">常に翻訳する</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">%1$s がこの言語のページの読み込み時に自動的に翻訳します。</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">翻訳しない</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">%1$s はサイトをこの言語に翻訳可能であることを通知しません。</string>
   <!--
     Never translate site preference screen
@@ -3589,7 +3589,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">%1$s (%2$s) を削除しますか？</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="delete_language_file_dialog_message">この言語を削除すると、翻訳時に %1$s が言語の一部をキャッシュにダウンロードします。</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3597,7 +3597,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">すべての言語 (%1$s) を削除しますか？</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="delete_language_all_languages_file_dialog_message">すべての言語を削除すると、翻訳時に %1$s が言語の一部をキャッシュにダウンロードします。</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">削除</string>
@@ -3632,12 +3632,12 @@
   <string name="protection_panel_banner_not_protected_title">保護をオフにしました</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Iceraven").
   -->
   <string name="protection_panel_banner_not_protected_description">%s の保護機能がオフです。保護を再度オンにすることをおすすめします。</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Iceraven").
   -->
   <string name="protection_panel_banner_protected_title">%s の保護機能がオンです</string>
   <!-- Description text for the protection panel banner when tracking protection is enabled. -->
@@ -3675,7 +3675,7 @@
     %s is a placeholder for the name of the tracker category.
     %d is a placeholder for the number of trackers blocked.
   -->
-  <string name="trackers_blocked_panel_categorical_num_trackers_blocked">%s: %d</string>
+  <string name="trackers_blocked_panel_categorical_num_trackers_blocked">%1$s: %2$d</string>
   <!--
     Description text for a dialog confirming whether the user wants to delete all data for current site.
     %s is a placeholder for the base domain of website.
@@ -3758,9 +3758,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Firefox の改善にご協力ください。時間はかかりません。</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Iceraven の改善にご協力ください。時間はかかりません。</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">続ける</string>
   <!--
@@ -3789,8 +3789,8 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">非常に不満</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">使わない</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Firefox では検索しない</string>
+  <!-- Option for likert scale. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Iceraven では検索しない</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">同期を使用しない</string>
   <!-- Option for likert scale -->
@@ -3801,30 +3801,30 @@
   <string name="likert_scale_option_confusing_or_hard_to_use" tools:ignore="UnusedResources">分かりにくい、または使いにくい</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_its_okay" tools:ignore="UnusedResources">悪くはないが、他のブラウザーより優れているわけではない</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">私は今後も Firefox を使い続けるつもりです</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Firefox の印刷機能の改善にご協力ください。時間はかかりません。</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Firefox の検索機能の改善にご協力ください。時間はかかりません</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Firefox の同期機能の改善にご協力ください。時間はかかりません</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Firefox での印刷にどの程度満足していますか？</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Firefox ホームページにどの程度満足していますか？</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Firefox での検索にどの程度満足していますか？</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Firefox の同期機能にどの程度満足していますか？</string>
-  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Firefox の改善にご協力ください。これまでのご利用経験の中で、最も当てはまるものはどれですか？</string>
+  <!-- Option for likert scale. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">私は今後も Iceraven を使い続けるつもりです</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Iceraven の印刷機能の改善にご協力ください。時間はかかりません。</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Iceraven の検索機能の改善にご協力ください。時間はかかりません</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Iceraven の同期機能の改善にご協力ください。時間はかかりません</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Iceraven での印刷にどの程度満足していますか？</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Iceraven ホームページにどの程度満足していますか？</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Iceraven での検索にどの程度満足していますか？</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Iceraven の同期機能にどの程度満足していますか？</string>
+  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Iceraven の改善にご協力ください。これまでのご利用経験の中で、最も当てはまるものはどれですか？</string>
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Iceraven" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Firefox ロゴ</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Iceraven ロゴ</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">アンケート機能アイコン</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -3936,36 +3936,36 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Iceraven. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Iceraven's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">今すぐ更新</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Firefox ブラウザーを更新しましょう</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card title about old Iceraven version. "Update" is a verb. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Iceraven ブラウザーを更新しましょう</string>
+  <!-- Homepage card message about old Iceraven version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">ルート証明書の有効期限が切れるため、3 月 14 日に一部の機能が動作しなくなります。</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Iceraven version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">3 月 14 日までに更新してください</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">ルート証明書の有効期限が切れると、ご使用のバージョンの Firefox が正しく動作しなくなります。</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">ルート証明書の有効期限が切れると、ご使用のバージョンの Iceraven が正しく動作しなくなります。</string>
+  <!-- Homepage card title about old Iceraven version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">残り 7 日以内に更新してください</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">3 月 14 日にルート証明書の有効期限が切れるため、アドオンやその他の Firefox の機能が動作しなくなります。</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Firefox を維持する最後のチャンスです</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">3 月 14 日にルート証明書の有効期限が切れるため、ご使用のバージョンの Firefox が正しく動作しなくなります。</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">3 月 14 日にルート証明書の有効期限が切れるため、アドオンやその他の Iceraven の機能が動作しなくなります。</string>
+  <!-- Homepage card title about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Iceraven を維持する最後のチャンスです</string>
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">3 月 14 日にルート証明書の有効期限が切れるため、ご使用のバージョンの Iceraven が正しく動作しなくなります。</string>
+  <!-- Push notification title about old Iceraven version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">更新してください</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Iceraven version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">アドオンと一部の機能が 3 月 14 日以降に動作しなくなります。</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">古いバージョンの Firefox を使用しています</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification title about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">古いバージョンの Iceraven を使用しています</string>
+  <!-- Push notification message about old Iceraven version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">アドオンやその他の機能を引き続き使用するには、3 月 14 日までに更新してください。</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Iceraven version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">明日以降、一部の機能が動作しなくなります。</string>
   <!-- TextField Design System Component -->
 
@@ -3974,7 +3974,7 @@
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_title_state_incomplete">%1$s の設定を完了してください</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -3982,19 +3982,19 @@
   <!--
     ===== Setup checklist feature: Subtitles for 3 steps =====
 
-    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_3_steps_initial_state">これらの 3 ステップを完了して、最適なブラウジング体験のために %1$s をセットアップしましょう。</string>
   <!-- Subtitle for a setup checklist with 3 steps when the first task is completed. -->
   <string name="setup_checklist_subtitle_3_steps_first_step">素晴らしいスタートです！ 3 ステップ中 、1 ステップを完了しました。</string>
   <!-- Subtitle for a setup checklist with 3 steps when two of the tasks are completed. -->
   <string name="setup_checklist_subtitle_3_steps_second_step">もうすぐです！ 2 つのステップが完了し、残り 1 つです。</string>
-  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_3_steps_completed_state">3 つのステップがすべて完了しました。%1$s のスピード、プライバシー、セキュリティをお楽しみください。</string>
   <!--
     ===== Setup checklist feature: Subtitles for 6 steps =====
 
-    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_6_steps_initial_state">6 ステップすべてを完了して、最適なブラウジング体験のために %1$s をセットアップしましょう。</string>
   <!-- Subtitle for a setup checklist with 6 steps when the first task is completed. -->
@@ -4007,12 +4007,12 @@
   <string name="setup_checklist_subtitle_6_steps_fourth_step">4 ステップが完了しました。あと 2 ステップです。</string>
   <!-- Subtitle for a setup checklist with 6 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_6_steps_fifth_step">ゴールはすぐそこ！ あと 1 ステップです。</string>
-  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_6_steps_completed_state">6 つのステップがすべて完了しました。%1$s のスピード、プライバシー、セキュリティをお楽しみください。</string>
   <!--
     ===== Setup checklist feature: Subtitles for 5 steps (Large screen devices don't support toolbar placement) =====
 
-    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_5_steps_initial_state">5 ステップすべてを完了して、最適なブラウジング体験のために %1$s をセットアップしましょう。</string>
   <!-- Subtitle for a setup checklist with 5 steps when the first task is completed. -->
@@ -4023,7 +4023,7 @@
   <string name="setup_checklist_subtitle_5_steps_third_step">半分まで来ました！ 3 つのステップが完了し、残りは 2 つです。</string>
   <!-- Subtitle for a setup checklist with 5 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_5_steps_fourth_step">ゴールはすぐそこ！ あと 1 ステップです。</string>
-  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_5_steps_completed_state">5 つのステップがすべて完了しました。%1$s のスピード、プライバシー、セキュリティをお楽しみください。</string>
   <!--
     ===== Setup checklist feature: Task titles =====
@@ -4044,10 +4044,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_group_essentials">%1$s の基本機能</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_group_customize">%1$s をカスタマイズ</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">役立つツール</string>
@@ -4090,18 +4090,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="review_prompt_pre_prompt_header">%1$s についてどう思いますか？</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">問題があります</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">すばらしい！</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_rate_header">%1$s をご愛顧いただきありがとうございます。評価して他の人々にも良さを伝えてみませんか？</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_rate_button">Play ストアで %1$s を評価する</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_feedback_header">ご不便をおかけして申し訳ございません。%1$s の改善についてご意見をお聞かせください。</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">フィードバックを残す</string>
@@ -4133,7 +4133,7 @@
   <string name="terms_of_use_prompt_title">更新情報があります</string>
   <!--
     Message for the terms of use pop up prompt
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Iceraven"
     %2$s is the string terms_of_use_prompt_link_terms_of_use (Terms of Use) that is a link to the terms of use
     %3$s is the string terms_of_use_prompt_link_privacy_notice (Privacy Notice) that is a link to the privacy notice
   -->
@@ -4159,7 +4159,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">利用規約</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Iceraven"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">%1$s からのメモ</string>
   <!--
@@ -4174,11 +4174,11 @@
   <!--
     Privacy notice homepage banner
 
-    A message we show the user on the homepage when there is a new version of the privacy notice. 'Firefox' is intentionally hardcoded.
+    A message we show the user on the homepage when there is a new version of the privacy notice. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link using privacy_notice_updated_homepage_message_privacy_notice as text (Privacy Notice)
     %2$s is replaced by an active link using privacy_notice_updated_homepage_message_learn_more as text (Learn more)
   -->
-  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">Firefox の最新機能を反映するために %1$s を更新しました。%2$s</string>
+  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">Iceraven の最新機能を反映するために %1$s を更新しました。%2$s</string>
   <!-- The first active link used in privacy_notice_updated_homepage_message -->
   <string name="privacy_notice_updated_homepage_message_privacy_notice" tools:ignore="UnusedResources">プライバシー通知</string>
   <!-- The second active link used in privacy_notice_updated_homepage_message -->

@@ -7,9 +7,9 @@
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:moz="http://mozac.org/tools">
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Iceraven"). -->
   <string name="app_name_private_5">%s privado</string>
-  <!-- App name for private browsing mode. %s is the name of the app (for example "Firefox"). -->
+  <!-- App name for private browsing mode. %s is the name of the app (for example "Iceraven"). -->
   <string name="app_name_private_4">%s (privado)</string>
   <!--
     Home Fragment
@@ -37,7 +37,7 @@
   <string name="no_private_tabs_description" tools:ignore="UnusedResources" moz:removedIn="149">Os seus separadores privados serão mostrados aqui.</string>
   <!-- The header text displayed on the private tabs page when no private tabs are open -->
   <string name="tab_manager_empty_private_tabs_page_header">Navegação privada</string>
-  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Firefox") -->
+  <!-- The supplementary text displayed on the private tabs page when no private tabs are open. %1$s is the name of the app (for example "Iceraven") -->
   <string name="tab_manager_empty_private_tabs_page_description">O %1$s não irá memorizar qualquer histórico ou cookies, mas os novos marcadores serão guardados.</string>
   <!-- The header text displayed on the normal tabs page when no normal tabs are open -->
   <string name="tab_manager_empty_normal_tabs_page_header">Criar um novo separador para iniciar a pesquisa</string>
@@ -73,8 +73,8 @@
   <string name="home_bookmarks_show_all_content_description">Mostrar todos os marcadores</string>
   <!-- Text for the menu button to remove a recently saved bookmark from the user's home screen -->
   <string name="home_bookmarks_menu_item_remove">Remover</string>
-  <!-- About content. %1$s is the name of the app (for example "Firefox"). -->
-  <string name="about_content">%1$s é criado pela Mozilla.</string>
+  <!-- About content. %1$s is the name of the app (for example "Iceraven"). -->
+  <string name="about_content">%1$s é criado pela @forkmaintainers.</string>
   <!-- Private Browsing -->
   <string name="private_browsing_common_myths">Mitos comuns sobre a navegação privada</string>
   <!-- Text to be announced by the accessibility service to inform the user that the private browsing mode is currently active. -->
@@ -87,7 +87,7 @@
   <string name="felt_privacy_desc_card_title">Não deixe vestígios neste dispositivo</string>
   <!--
     Description of private browsing mode displayed to users on the homepage when they enable private mode.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="felt_privacy_info_card_subtitle_3">O %1$s elimina os seus cookies, histórico e dados de sites quando fecha todos os seus separadores privados.</string>
   <!--
@@ -99,7 +99,7 @@
   <!--
     Open in App "contextual feature recommendation" (CFR)
 
-    Text for the info message. %1$s is the name of the app (for example "Firefox").
+    Text for the info message. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="open_in_app_cfr_info_message_2">Pode configurar o %1$s para abrir automaticamente as ligações nas aplicações.</string>
   <!-- Text for the positive action button -->
@@ -134,7 +134,7 @@
   <string name="tab_tray_inactive_auto_close_title">Auto-encerrar após um mês?</string>
   <!--
     Text for the body for the auto-close dialog of the inactive tabs.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="tab_tray_inactive_auto_close_body_2">O %1$s pode encerrar separadores que não acedeu no último mês.</string>
   <!-- Content description for close button in the auto-close dialog of the inactive tabs. -->
@@ -253,17 +253,17 @@
   <string name="browser_menu_homepage">Página inicial</string>
   <!--
     Browser menu button shown in custom tabs that opens the current tab in Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_open_in_fenix">Abrir no %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_powered_by" tools:ignore="UnusedResources" moz:removedIn="149">Com tecnologia %1$s</string>
   <!--
     Browser menu text shown in custom tabs to indicate this is a Fenix tab
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_powered_by2">Com tecnologia %1$s</string>
   <!-- Browser menu button to put the current page in reader mode -->
@@ -330,12 +330,12 @@
   <string name="browser_menu_print_2">Imprimir</string>
   <!--
     Browser menu label for the Delete browsing data on quit feature.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_delete_browsing_data_on_quit">Sair do %1$s</string>
   <!--
     Content description for a banner within the menu which prompt the user to make this app their default browser.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="browser_menu_default_banner_title">Predefinir o %1$s</string>
   <!-- Label text within the set as default banner -->
@@ -412,7 +412,7 @@
   <string name="search_suggestions_onboarding_do_not_allow_button">Não permitir</string>
   <!-- Search suggestion onboarding hint title text -->
   <string name="search_suggestions_onboarding_title">Permitir sugestões de pesquisa em sessões privadas?</string>
-  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Firefox"). -->
+  <!-- Search suggestion onboarding hint description text, %s is the name of the app (for example "Iceraven"). -->
   <string name="search_suggestions_onboarding_text">O %s irá enviar tudo o que escreve na barra de endereço para o seu motor de pesquisa predefinido.</string>
   <!-- Search engine suggestion title text. %s is the name of the suggested engine. -->
   <string name="search_engine_suggestions_title">Pesquisar %s</string>
@@ -448,7 +448,7 @@
 
     Description for learning more about our privacy notice.
   -->
-  <string name="juno_onboarding_privacy_notice_text" tools:ignore="BrandUsage">Política de privacidade do Firefox</string>
+  <string name="juno_onboarding_privacy_notice_text" tools:ignore="BrandUsage">Política de privacidade do Iceraven</string>
   <!-- Title for set firefox as default browser screen used by Nimbus experiments. -->
   <string name="juno_onboarding_default_browser_title_nimbus_2">Adoramos mantê-lo(a) seguro(a)</string>
   <!-- Description for set firefox as default browser screen used by Nimbus experiments. -->
@@ -461,84 +461,84 @@
   <string name="juno_onboarding_sign_in_title_2">Mantenha-se encriptado quando troca de dispositivos</string>
   <!--
     Description for sign in to sync screen. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_sign_in_description_3" tools:ignore="BrandUsage">O Firefox encripta as suas palavras-passe, marcadores e muito mais quando está sincronizado.</string>
+  <string name="juno_onboarding_sign_in_description_3" tools:ignore="BrandUsage">O Iceraven encripta as suas palavras-passe, marcadores e muito mais quando está sincronizado.</string>
   <!-- Text for the button to sign in to sync on the device -->
   <string name="juno_onboarding_sign_in_positive_button" tools:ignore="UnusedResources">Iniciar sessão</string>
   <!-- Text for the button dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_sign_in_negative_button" tools:ignore="UnusedResources">Agora não</string>
   <!--
     Title for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_enable_notifications_title_nimbus_2" tools:ignore="BrandUsage">As notificações ajudam-no(a) a manter-se mais seguro(a) com o Firefox</string>
+  <string name="juno_onboarding_enable_notifications_title_nimbus_2" tools:ignore="BrandUsage">As notificações ajudam-no(a) a manter-se mais seguro(a) com o Iceraven</string>
   <!--
     Description for enable notification permission screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_enable_notifications_description_nimbus_2" tools:ignore="BrandUsage">Envie separadores de forma segura entre os seus dispositivos e descubra outras funcionalidades de privacidade no Firefox.</string>
+  <string name="juno_onboarding_enable_notifications_description_nimbus_2" tools:ignore="BrandUsage">Envie separadores de forma segura entre os seus dispositivos e descubra outras funcionalidades de privacidade no Iceraven.</string>
   <!-- Text for the button to request notification permission on the device -->
   <string name="juno_onboarding_enable_notifications_positive_button" tools:ignore="UnusedResources">Ativar notificações</string>
   <!-- Text for the button dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_enable_notifications_negative_button" tools:ignore="UnusedResources">Agora não</string>
   <!--
     Title for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_title" tools:ignore="BrandUsage,UnusedResources">Experimente o widget de pesquisa do Firefox</string>
+  <string name="juno_onboarding_add_search_widget_title" tools:ignore="BrandUsage,UnusedResources">Experimente o widget de pesquisa do Iceraven</string>
   <!--
     Description for add search widget screen used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_description" tools:ignore="BrandUsage,UnusedResources">Com o Firefox no ecrã inicial, terá acesso fácil ao navegador que prioriza a privacidade e bloqueia rastreadores entre sites.</string>
+  <string name="juno_onboarding_add_search_widget_description" tools:ignore="BrandUsage,UnusedResources">Com o Iceraven no ecrã inicial, terá acesso fácil ao navegador que prioriza a privacidade e bloqueia rastreadores entre sites.</string>
   <!--
     Text for the button to add search widget on the device used by Nimbus experiments. Nimbus experiments do not support string placeholders.
-    Note: The word "Firefox" should NOT be translated
+    Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="BrandUsage,UnusedResources">Adicionar a widget do Firefox</string>
+  <string name="juno_onboarding_add_search_widget_positive_button" tools:ignore="BrandUsage,UnusedResources">Adicionar a widget do Iceraven</string>
   <!-- Text for the button to dismiss the screen and move on with the flow -->
   <string name="juno_onboarding_add_search_widget_negative_button" tools:ignore="UnusedResources">Agora não</string>
-  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Firefox" should NOT be translated. -->
-  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Ajude-nos a tornar o Firefox melhor</string>
+  <!-- Title for the privacy preferences dialog shown during onboarding. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="onboarding_preferences_dialog_title" tools:ignore="BrandUsage">Ajude-nos a tornar o Iceraven melhor</string>
   <!-- Title for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_title">Enviar relatórios de falhas automaticamente</string>
   <!-- Description for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_description">Os relatórios de falhas permitem-nos diagnosticar e corrigir problemas com o navegador. Os relatórios podem incluir dados pessoais ou sensíveis.</string>
   <!-- Learn more link for the crash reporting option in the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_crash_reporting_learn_more_2">Saber mais</string>
-  <!-- Title for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Title for the startup crash page. %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_title">O %s precisa de reiniciar</string>
-  <!-- Body text for the startup crash page. %s is the name of the app (for example "Firefox") -->
+  <!-- Body text for the startup crash page. %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_body">Ocorreu um problema ao abrir %s.\n\nEnviar o relatório de falha ajuda-nos a diagnosticar e a corrigir problemas com o navegador. Os relatórios podem incluir dados pessoais ou sensíveis.</string>
   <!-- Button text to submit a startup crash report -->
   <string name="startup_crash_positive">Enviar relatório de falha</string>
   <!-- Button text to continue and not send a startup crash report -->
   <string name="startup_crash_negative">Não, obrigado</string>
-  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Firefox") -->
+  <!-- Button text to reopen firefox after the crash is processed %s is the name of the app (for example "Iceraven") -->
   <string name="startup_crash_restart">Reabrir %s</string>
   <!-- Title for the usage data option in the privacy preferences dialog shown during onboarding. Note: The word "Mozilla" should NOT be translated. -->
   <string name="onboarding_preferences_dialog_usage_data_title">Enviar dados técnicos e de interação para a Mozilla</string>
-  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">Os dados sobre o seu dispositivo, configuração de hardware e como utiliza o Firefox ajudam a melhorar as funcionalidades, o desempenho e a estabilidade para todos.</string>
+  <string name="onboarding_preferences_dialog_usage_data_description_2" tools:ignore="BrandUsage">Os dados sobre o seu dispositivo, configuração de hardware e como utiliza o Iceraven ajudam a melhorar as funcionalidades, o desempenho e a estabilidade para todos.</string>
   <string name="onboarding_preferences_dialog_usage_data_learn_more_2">Saber mais</string>
   <!-- Positive button label for the privacy preferences dialog shown during onboarding. -->
   <string name="onboarding_preferences_dialog_positive_button">Feito</string>
-  <!-- Terms of service onboarding title card label. 'Firefox' intentionally hardcoded here -->
-  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Boas-vindas ao Firefox</string>
+  <!-- Terms of service onboarding title card label. 'Iceraven' intentionally hardcoded here -->
+  <string name="onboarding_welcome_to_firefox" tools:ignore="BrandUsage">Boas-vindas ao Iceraven</string>
   <!-- Terms of service sub header label. -->
   <string name="onboarding_terms_of_service_sub_header_2">Navegação web rápida e segura</string>
   <!-- Terms of service onboarding page continue button label. -->
   <string name="onboarding_term_of_service_agree_and_continue_button_label_2">Continuar</string>
-  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Firefox Terms of Use”). -->
+  <!-- Line one of the terms of service onboarding page. %1$s is replaced by an active link, using onboarding_term_of_service_line_one_link_text_2 as text (“Iceraven Terms of Use”). -->
   <string name="onboarding_term_of_service_line_one_2">Ao continuar, concorda com os %1$s.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_one_2. -->
-  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Termos de Utilização do Firefox</string>
-  <!-- Line two of the terms of service onboarding page. 'Firefox' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
-  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">O Firefox preocupa-se com a sua privacidade. Saiba mais no nosso %1$s.</string>
+  <string name="onboarding_term_of_service_line_one_link_text_2" tools:ignore="BrandUsage">Termos de Utilização do Iceraven</string>
+  <!-- Line two of the terms of service onboarding page. 'Iceraven' is intentionally hardcoded. %1$s is replaced by an active link, using onboarding_term_of_service_line_two_link_text as text (“Privacy Notice”). -->
+  <string name="onboarding_term_of_service_line_two_2" tools:ignore="BrandUsage">O Iceraven preocupa-se com a sua privacidade. Saiba mais no nosso %1$s.</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_two. -->
   <string name="onboarding_term_of_service_line_two_link_text">Informação de privacidade</string>
-  <!-- Line three of the terms of service onboarding page. 'Firefox' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
-  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">Para ajudar a melhorar o navegador, o Firefox envia dados de diagnóstico e de interação para a Mozilla. %1$s</string>
+  <!-- Line three of the terms of service onboarding page. 'Iceraven' and 'Mozilla' are intentionally hardcoded. %1$s is replaced by an active link using onboarding_term_of_service_line_three_link_text as text (“Manage”). -->
+  <string name="onboarding_term_of_service_line_three" tools:ignore="BrandUsage">Para ajudar a melhorar o navegador, o Iceraven envia dados de diagnóstico e de interação para a Mozilla. %1$s</string>
   <!-- Used as text for the link in onboarding_term_of_service_line_three. -->
   <string name="onboarding_term_of_service_line_three_link_text">Gerir</string>
   <!-- Terms of use (ToU) onboarding redesign title. -->
@@ -551,23 +551,23 @@
   <string name="onboarding_redesign_tou_subheader_three" tools:ignore="UnusedResources">Milhares de personalizações</string>
   <!--
     Terms of use (ToU) first body text. %1$s is replaced by an active link,
-    using onboarding_redesign_tou_body_one_link_text as text (“Firefox Terms of Use”).
+    using onboarding_redesign_tou_body_one_link_text as text (“Iceraven Terms of Use”).
   -->
   <string name="onboarding_redesign_tou_body_one" tools:ignore="UnusedResources">Ao continuar, concorda com os %1$s.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_one. -->
-  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Termos de Utilização do Firefox</string>
+  <string name="onboarding_redesign_tou_body_one_link_text" tools:ignore="BrandUsage,UnusedResources">Termos de Utilização do Iceraven</string>
   <!--
-    Terms of use (ToU) second body text. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) second body text. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link, using onboarding_redesign_tou_body_two_link_text as text (“Privacy Notice”).
   -->
-  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">O Firefox preocupa-se com a sua privacidade. Saiba mais na nossa %1$s.</string>
+  <string name="onboarding_redesign_tou_body_two" tools:ignore="BrandUsage,UnusedResources">O Iceraven preocupa-se com a sua privacidade. Saiba mais na nossa %1$s.</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_two. -->
   <string name="onboarding_redesign_tou_body_two_link_text" tools:ignore="UnusedResources">Informação de privacidade</string>
   <!--
-    Terms of use (ToU) third body text. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) third body text. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link using onboarding_redesign_tou_body_three_link_text as text (“Manage Settings”).
   -->
-  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">Para ajudar a melhorar o navegador, o Firefox envia dados de diagnóstico e de interação para a Mozilla. %1$s</string>
+  <string name="onboarding_redesign_tou_body_three" tools:ignore="BrandUsage,UnusedResources">Para ajudar a melhorar o navegador, o Iceraven envia dados de diagnóstico e de interação para a Mozilla. %1$s</string>
   <!-- Used as text for the link in onboarding_redesign_tou_body_three. -->
   <string name="onboarding_redesign_tou_body_three_link_text" tools:ignore="UnusedResources">Gerir definições</string>
   <!-- Terms of use (ToU) onboarding page continue button label. -->
@@ -576,10 +576,10 @@
   <string name="onboarding_redesign_customize_toolbar_title" tools:ignore="UnusedResources">Onde prefere a sua barra de endereço?</string>
   <!-- Onboarding label for 'Continue' button. -->
   <string name="onboarding_redesign_continue_button" tools:ignore="UnusedResources">Continuar</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage,UnusedResources">Ajude o Firefox a crescer</string>
+  <!-- Marketing onboarding page title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_redesign_title" tools:ignore="BrandUsage,UnusedResources">Ajude o Iceraven a crescer</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Partilhe como descobriu o Firefox, e que o utiliza, com os parceiros de marketing da Mozilla. Estes dados nunca são vendidos.</string>
+  <string name="onboarding_marketing_redesign_opt_out_checkbox" tools:ignore="BrandUsage,UnusedResources">Partilhe como descobriu o Iceraven, e que o utiliza, com os parceiros de marketing da Mozilla. Estes dados nunca são vendidos.</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
   <string name="onboarding_marketing_redesign_learn_more" tools:ignore="UnusedResources">Como utilizamos os dados</string>
   <!-- Marketing onboarding page button label. Button to confirm choice and start browsing. -->
@@ -588,18 +588,18 @@
   <string name="onboarding_redesign_set_default_browser_title" tools:ignore="UnusedResources">Obtenha uma proteção automática contra a monitorização por predefinição</string>
   <!-- Set to default browser onboarding redesign body. -->
   <string name="onboarding_redesign_set_default_browser_body" tools:ignore="UnusedResources">Um toque ajuda a impedir que as empresas espiem os seus cliques.</string>
-  <!-- Sync onboarding redesign title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Sincronize onde quer que utilize o Firefox</string>
+  <!-- Sync onboarding redesign title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_redesign_sync_title" tools:ignore="BrandUsage,UnusedResources">Sincronize onde quer que utilize o Iceraven</string>
   <!-- Sync onboarding redesign body. -->
   <string name="onboarding_redesign_sync_body" tools:ignore="UnusedResources">Obtenha marcadores, separadores e palavras-passe em qualquer dispositivo. Tudo protegido com encriptação.</string>
   <!-- Sync onboarding redesign positive button text. -->
   <string name="onboarding_redesign_sync_positive_button" tools:ignore="UnusedResources">Iniciar sincronização</string>
   <!-- Sync onboarding redesign negative button text. -->
   <string name="onboarding_redesign_sync_negative_button" tools:ignore="UnusedResources">Agora não</string>
-  <!-- Marketing onboarding page title. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_title" tools:ignore="BrandUsage,UnusedResources">Ajude o Firefox a crescer</string>
-  <!-- Marketing onboarding page body. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Quando partilha a informação sobre como descobriu o Firefox e que o utiliza, está a ajudar-nos a apresentar o nosso navegador a mais pessoas.</string>
+  <!-- Marketing onboarding page title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_title" tools:ignore="BrandUsage,UnusedResources">Ajude o Iceraven a crescer</string>
+  <!-- Marketing onboarding page body. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body" tools:ignore="BrandUsage,UnusedResources">Quando partilha a informação sobre como descobriu o Iceraven e que o utiliza, está a ajudar-nos a apresentar o nosso navegador a mais pessoas.</string>
   <!-- Marketing onboarding page opt-out checkbox. Unchecking the box does not increase data collection. Our data practices remain the same. 'Mozilla' is intentionally hardcoded. -->
   <string name="onboarding_marketing_opt_out_checkbox">Partilhar dados com os parceiros de tecnologia de marketing da Mozilla. Estes dados nunca são vendidos ou utilizados para lhe mostrar anúncios.</string>
   <!-- Marketing onboarding page clickable link text to "learn more" on how data is used. -->
@@ -608,8 +608,8 @@
   <string name="onboarding_marketing_positive_button" tools:ignore="UnusedResources">Confirmar e começar a navegar</string>
   <!-- Marketing onboarding page title variant. “One last thing” refers to the final step or action in the onboarding process that we’re asking users to take before they can start using the browser. -->
   <string name="onboarding_marketing_title_1" tools:ignore="UnusedResources">Uma última coisa</string>
-  <!-- Marketing onboarding page body variant. 'Firefox' is intentionally hardcoded. -->
-  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Partilhe como descobriu o Firefox, e que o utiliza, com os parceiros de marketing da Mozilla. Estes dados nunca são vendidos.</string>
+  <!-- Marketing onboarding page body variant. 'Iceraven' is intentionally hardcoded. -->
+  <string name="onboarding_marketing_body_1" tools:ignore="BrandUsage,UnusedResources">Partilhe como descobriu o Iceraven, e que o utiliza, com os parceiros de marketing da Mozilla. Estes dados nunca são vendidos.</string>
   <!-- Marketing onboarding page button label variant. Button to confirm choice and start browsing. -->
   <string name="onboarding_marketing_positive_button_1" tools:ignore="UnusedResources">Concordar e começar a navegar</string>
   <!-- ==== Project "Nova" onboarding strings ==== -->
@@ -624,23 +624,23 @@
   <string name="nova_onboarding_tou_subtitle">Rápido, seguro e sem interesses ocultos.\nA sua experiência de navegação acabou de melhorar.</string>
   <!--
     Terms of use (ToU) onboarding body line one.
-    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Firefox Terms of Use”).
+    %1$s is replaced by an active link, using nova_onboarding_tou_body_line_1_link_text as text (“Iceraven Terms of Use”).
   -->
   <string name="nova_onboarding_tou_body_line_1">Ao continuar, concorda com os %1$s.</string>
-  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Termos de utilização do Firefox</string>
+  <!-- Terms of use (ToU) onboarding body line one link text for nova_onboarding_tou_body_line_1. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_tou_body_line_1_link_text" tools:ignore="BrandUsage">Termos de utilização do Iceraven</string>
   <!--
-    Terms of use (ToU) onboarding body line two. 'Firefox' is intentionally hardcoded.
+    Terms of use (ToU) onboarding body line two. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_2_link_text as text (“Privacy Notice”).
   -->
-  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">O Firefox preocupa-se com a sua privacidade. Saiba mais na nossa %1$s.</string>
+  <string name="nova_onboarding_tou_body_line_2" tools:ignore="BrandUsage">O Iceraven preocupa-se com a sua privacidade. Saiba mais na nossa %1$s.</string>
   <!-- Terms of use (ToU) onboarding body line two link text for nova_onboarding_tou_body_line_2. -->
   <string name="nova_onboarding_tou_body_line_2_link_text">Informação de privacidade</string>
   <!--
-    Terms of use (ToU) onboarding body line three. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Terms of use (ToU) onboarding body line three. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_tou_body_line_3_link_text as text (“Manage Settings”).
   -->
-  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">Para ajudar a melhorar o navegador, o Firefox envia dados de diagnóstico e de interação para a Mozilla. %1$s</string>
+  <string name="nova_onboarding_tou_body_line_3" tools:ignore="BrandUsage">Para ajudar a melhorar o navegador, o Iceraven envia dados de diagnóstico e de interação para a Mozilla. %1$s</string>
   <!-- Terms of use (ToU) onboarding body line three link text for nova_onboarding_tou_body_line_3. -->
   <string name="nova_onboarding_tou_body_line_3_link_text">Gerir definições</string>
   <!-- "Set to default" onboarding title. -->
@@ -674,24 +674,24 @@
   <!-- Marketing onboarding title. -->
   <string name="nova_onboarding_marketing_title">Ajude-nos a construir uma Internet melhor</string>
   <!--
-    Marketing onboarding body. 'Firefox' and 'Mozilla' are intentionally hardcoded.
+    Marketing onboarding body. 'Iceraven' and 'Mozilla' are intentionally hardcoded.
     %1$s is replaced by an active link, using nova_onboarding_marketing_body_link_text as text (“How we use the data”).
   -->
-  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage">Partilhe como descobriu e que utiliza o Firefox, com os parceiros de marketing da Mozilla. Estes dados nunca são vendidos. %1$s</string>
+  <string name="nova_onboarding_marketing_body" tools:ignore="BrandUsage">Partilhe como descobriu e que utiliza o Iceraven, com os parceiros de marketing da Mozilla. Estes dados nunca são vendidos. %1$s</string>
   <!-- Marketing onboarding body link text. -->
   <string name="nova_onboarding_marketing_body_link_text">Como utilizamos os dados</string>
-  <!-- Notifications onboarding title. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">As notificações ajudam a que se possa manter em segurança com o Firefox</string>
-  <!-- Notifications onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Fique a par das mais recentes funcionalidades de privacidade do Firefox para saber sempre como se manter protegido.</string>
+  <!-- Notifications onboarding title. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_title" tools:ignore="BrandUsage,UnusedResources">As notificações ajudam a que se possa manter em segurança com o Iceraven</string>
+  <!-- Notifications onboarding subtitle. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_notifications_subtitle" tools:ignore="BrandUsage,UnusedResources">Fique a par das mais recentes funcionalidades de privacidade do Iceraven para saber sempre como se manter protegido.</string>
   <!-- Notifications onboarding button. -->
   <string name="nova_onboarding_notifications_button">Ativar notificações</string>
   <!-- "Add search widget" onboarding title. -->
   <string name="nova_onboarding_add_search_widget_title">Torne cada pesquisa mais privada</string>
-  <!-- "Add search widget" onboarding subtitle. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">Inicie todas as pesquisas a partir do ecrã principal do seu telemóvel e tenha a certeza de que as proteções automáticas do Firefox estão do seu lado.</string>
-  <!-- "Add search widget" onboarding button. 'Firefox' is intentionally hardcoded. -->
-  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Adicionar a widget do Firefox</string>
+  <!-- "Add search widget" onboarding subtitle. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_subtitle" tools:ignore="BrandUsage">Inicie todas as pesquisas a partir do ecrã principal do seu telemóvel e tenha a certeza de que as proteções automáticas do Iceraven estão do seu lado.</string>
+  <!-- "Add search widget" onboarding button. 'Iceraven' is intentionally hardcoded. -->
+  <string name="nova_onboarding_add_search_widget_button" tools:ignore="BrandUsage">Adicionar a widget do Iceraven</string>
   <!-- ==== End of Project "Nova" onboarding strings ==== -->
 
   <!-- Onboarding header for the toolbar selection card, used by Nimbus experiments. -->
@@ -738,7 +738,7 @@
   <!--
     Search Widget
 
-    Content description for searching with a widget. %1$s is the name of the app (for example "Firefox").
+    Content description for searching with a widget. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="search_widget_content_description_2">Abrir um novo separador do %1$s</string>
   <!-- Text preview for smaller sized widgets -->
@@ -777,15 +777,15 @@
   <string name="preferences_search_engines_suggestions">Sugestões dos motores de pesquisa</string>
   <!-- Preference Category for settings related to Search address bar -->
   <string name="preferences_settings_address_bar">Preferências da barra de endereços</string>
-  <!-- Preference Category for settings to Firefox Suggest -->
-  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Barra de endereços – Firefox Suggest</string>
-  <!-- Preference link to Learn more about Firefox Suggest -->
-  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Saiba mais sobre o Firefox Suggest</string>
+  <!-- Preference Category for settings to Iceraven Suggest -->
+  <string name="preference_search_address_bar_fx_suggest" tools:ignore="BrandUsage">Barra de endereços – Iceraven Suggest</string>
+  <!-- Preference link to Learn more about Iceraven Suggest -->
+  <string name="preference_search_learn_about_fx_suggest" tools:ignore="BrandUsage">Saiba mais sobre o Iceraven Suggest</string>
   <!-- Preference link to rating Fenix on the Play Store -->
   <string name="preferences_rate">Classificar no Google Play</string>
   <!--
     Preference linking to about page for Fenix
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_about">Sobre %1$s</string>
   <!-- Preference for settings related to changing the default browser -->
@@ -836,13 +836,13 @@
   <string name="reduce_cookie_banner_details_panel_title_on_for_site_1">Ativar o bloqueador de faixa de cookies para %1$s?</string>
   <!-- Title text for a detail explanation indicating cookie banner handling is off this site, this is shown as part of the cookie banner panel in the toolbar. %1$s is a shortened URL of the current site. -->
   <string name="reduce_cookie_banner_details_panel_title_off_for_site_1">Desativar o bloqueador de faixa de cookies para %1$s?</string>
-  <!-- Title text for a detail explanation indicating cookie banner reducer didn't work for the current site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title text for a detail explanation indicating cookie banner reducer didn't work for the current site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_title_unsupported_site_request_2">%1$s não pode rejeitar automaticamente pedidos de cookies neste site. Pode enviar um pedido para suportar este site no futuro.</string>
-  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is off for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is off for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_description_off_for_site_1">Desative e o %1$s irá limpar os cookies e recarregar este site. Isto pode terminar a sua sessão ou esvaziar os carrinhos de compras.</string>
-  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is on for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Long text for a detail explanation indicating what will happen if cookie banner handling is on for a site, this is shown as part of the cookie banner panel in the toolbar. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="reduce_cookie_banner_details_panel_description_on_for_site_3">Ative e o %1$s tentará recusar automaticamente todas as faixas de cookies neste site.</string>
-  <!-- Title for the cookie banner re-engagement CFR, the placeholder is replaced with app name. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the cookie banner re-engagement CFR, the placeholder is replaced with app name. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="cookie_banner_cfr_title">%1$s acabou de recusar cookies por si</string>
   <!-- Message for the cookie banner re-engagement CFR -->
   <string name="cookie_banner_cfr_message">Menos distrações, menos cookies rastreando-o(a) neste site.</string>
@@ -930,27 +930,27 @@
   <string name="preferences_account_settings">Definições da conta</string>
   <!-- Preference for enabling url autocomplete -->
   <string name="preferences_enable_autocomplete_urls">Conclusão automática de endereços</string>
-  <!-- Preference title for switch preference to show sponsored Firefox Suggest search suggestions -->
+  <!-- Preference title for switch preference to show sponsored Iceraven Suggest search suggestions -->
   <string name="preferences_show_sponsored_suggestions">Sugestões de patrocinadores</string>
   <!--
-    Summary for preference to show sponsored Firefox Suggest search suggestions.
-    %1$s is the name of the app (for example "Firefox").
+    Summary for preference to show sponsored Iceraven Suggest search suggestions.
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_show_sponsored_suggestions_summary">Apoie o %1$s com sugestões patrocinadas ocasionais</string>
   <!--
-    Preference title for switch preference to show Firefox Suggest search suggestions for web content.
-    %1$s is the name of the app (for example "Firefox").
+    Preference title for switch preference to show Iceraven Suggest search suggestions for web content.
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="preferences_show_nonsponsored_suggestions">Sugestões de %1$s</string>
-  <!-- Summary for preference to show Firefox Suggest search suggestions for web content -->
+  <!-- Summary for preference to show Iceraven Suggest search suggestions for web content -->
   <string name="preferences_show_nonsponsored_suggestions_summary">Obtenha sugestões da Internet relacionadas com a sua pesquisa</string>
   <!-- Preference title for switch preference to show search optimization cards -->
   <string name="preferences_show_search_optimization_cards">Obter as sugestões da Mozilla enquanto digita</string>
   <!-- Preference for link sharing -->
   <string name="preferences_link_sharing">Partilha de ligação</string>
-  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Title for the link sharing toggle. %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="link_sharing_toggle_title">Incluir ligação de transferência do %1$s nas partilhas do WhatsApp</string>
-  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Body for the link sharing toggle.  %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="link_sharing_toggle_body">Convide os seus amigos a experimentarem uma navegação mais rápida e segura com o %1$s, sempre que partilhar uma ligação no WhatsApp.</string>
   <!-- Snackbar message shown when user shares a link -->
   <string name="link_shared_snackbar_message">Ligação partilhada</string>
@@ -975,7 +975,7 @@
   <string name="preference_downloads_folder_permission_lost" tools:ignore="UnusedResources">Não tem permissão para utilizar esta pasta. Experimente selecionar outra.</string>
   <!-- Preference title for choosing an app to handle downloads -->
   <string name="preferences_choose_app_for_downloads">Gerir transferências com outra aplicação</string>
-  <!-- Title for the setting to automatically clean up downloaded files. %s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the setting to automatically clean up downloaded files. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_downloads_settings_clean_up_files_title">Eliminar de %s e do dispositivo</string>
   <!-- Summary for the setting to automatically clean up downloaded files -->
   <string name="preferences_downloads_settings_clean_up_files_summary">Remover ficheiros do seu gestor de transferências também os remove do seu dispositivo</string>
@@ -1070,7 +1070,7 @@
   <string name="wallpaper_select_error_snackbar_message">Não foi possível alterar o fundo</string>
   <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
   <string name="wallpaper_learn_more">Saber mais</string>
-  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text for classic wallpapers title. %s is the name of the app (for example "Iceraven"). -->
   <string name="wallpaper_classic_title">%s clássico</string>
   <!-- Text for artist series wallpapers title. "Artist series" represents a collection of artist collaborated wallpapers. -->
   <string name="wallpaper_artist_series_title">Séries de artista</string>
@@ -1118,11 +1118,11 @@
   <string name="alternative_app_icon_option_gradient_midnight">Meia noite</string>
   <!-- Title for the "Northern Lights" gradient alternative app icon variant in the icon picker screen. The app icon has a dynamic green, blue, and purple gradient background, resembling the aurora borealis. -->
   <string name="alternative_app_icon_option_gradient_northern_lights">Luzes do Norte</string>
-  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Firefox logo from 2004. -->
+  <!-- Title for the "Retro 2004" themed alternative app icon variant in the icon picker screen. This app icon uses the classic Iceraven logo from 2004. -->
   <string name="alternative_app_icon_option_retro_2004">Retro 2004</string>
   <!-- Title for the "Pixelated" themed alternative app icon variant in the icon picker screen. This app icon features a pixel-art style, resembling retro 8-bit graphics. -->
   <string name="alternative_app_icon_option_pixelated">Pixelado</string>
-  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Firefox logo. -->
+  <!-- Title for the "Minimal" themed alternative app icon variant in the icon picker screen. The app icon presents a simplified, flat and monochrome version of the Iceraven logo. -->
   <string name="alternative_app_icon_option_minimal">Minimalista</string>
   <!-- Title for the "Pride" themed alternative app icon variant in the icon picker screen. The app icon incorporates a rainbow color scheme in support of the LGBTQ+ community. -->
   <string name="alternative_app_icon_option_pride">Orgulho</string>
@@ -1132,9 +1132,9 @@
   <string name="alternative_app_icon_option_momo_subtitle">Criado por @heyheymoshots</string>
   <!-- Title for the "Cuddling" themed alternative app icon variant in the icon picker screen. The app icon features a playful design with an adorable aesthetic. -->
   <string name="alternative_app_icon_option_cuddling">Carinhoso</string>
-  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Firefox logo surrounded by flames for a bold, energetic look. -->
+  <!-- Title for the "Flaming" themed alternative app icon variant in the icon picker screen. The app icon features a fiery design, with the Iceraven logo surrounded by flames for a bold, energetic look. -->
   <string name="alternative_app_icon_option_flaming">Flamejante</string>
-  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Firefox logo, giving it a fresh and stylish appearance. -->
+  <!-- Title for the "Cool" themed alternative app icon variant in the icon picker screen. The app icon uses a warm orange-to-yellow gradient background with a sleek, modern twist on the Iceraven logo, giving it a fresh and stylish appearance. -->
   <string name="alternative_app_icon_option_cool">Simpático</string>
   <!-- Title for the "Solid colors" group of alternative app icon variants in the icon picker screen. This group contains icons with flat, uniform color backgrounds. -->
   <string name="alternative_app_icon_group_solid_colors">Cores sólidas</string>
@@ -1144,9 +1144,9 @@
   <string name="alternative_app_icon_group_featured">Em destaque</string>
   <!-- Title to show in alert when user selects an alternative app icon -->
   <string name="restart_warning_dialog_title">Alterar ícone da aplicação?</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="restart_warning_dialog_body_2">A aplicação pode ser fechada. Basta tocar no seu novo ícone brilhante para reabrir o %1$s.</string>
-  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Firefox). -->
+  <!-- Message to warn users that applying an alternative app icon may require an app restart and will remove existing shortcuts because of the OS limitations. Whether or not the app closes depends on what version of Android it is, so we use the word "may" instead of "will". %1$s is replaced by the brand name (e.g. Iceraven). -->
   <string name="restart_and_shortcuts_removal_warning_dialog_body">Ao alterar o ícone, todos os sites e atalhos que guardou no seu ecrã principal serão removidos.\n\n%1$s pode ser fechado. Toque no novo ícone para voltar a abrir.</string>
   <!-- Dialog button text for confirming the possible app restart and new icon selection -->
   <string name="restart_warning_dialog_button_positive_2">Alterar ícone</string>
@@ -1160,8 +1160,8 @@
     Title of the Nimbus message for extension general availability
   -->
   <string name="addon_ga_message_title_2" tools:ignore="UnusedResources">Novas extensões agora disponíveis</string>
-  <!-- Body of the Nimbus message for add-ons general availability. 'Firefox' intentionally hardcoded here -->
-  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Conheça mais de 100 novas extensões que permitem personalizar o Firefox ao seu gosto.</string>
+  <!-- Body of the Nimbus message for add-ons general availability. 'Iceraven' intentionally hardcoded here -->
+  <string name="addon_ga_message_body" tools:ignore="BrandUsage,UnusedResources">Conheça mais de 100 novas extensões que permitem personalizar o Iceraven ao seu gosto.</string>
   <!-- Button text of the Nimbus message for extensions general availability. -->
   <string name="addon_ga_message_button_2" tools:ignore="UnusedResources">Explorar extensões</string>
   <!--
@@ -1173,7 +1173,7 @@
   <!--
     This is a message shown to the user when too many errors have occurred with the extensions process and they have been disabled.
     The user can decide if they would like to continue trying to start extensions or if they'd rather continue without them.
-    %1$s is the name of the app (for example "Firefox").
+    %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="extension_process_crash_dialog_message">Uma ou mais extensões deixaram de funcionar, tornando o sistema instável. %1$s tentou reiniciar a(s) extensão(ões) sem sucesso.\n\nAs extensões não serão reiniciadas durante a sessão atual.\n\nRemover ou desativar as extensões poderá corrigir este problema.</string>
   <!-- Button text on the extension crash dialog to prompt the user to try restarting the extensions but the dialog will reappear if it is unsuccessful again -->
@@ -1218,7 +1218,7 @@
   <string name="sync_never_synced_summary">Última sincronização: nunca</string>
   <!--
     Text for displaying the default device name.
-    %1$s is the name of the app (for example "Firefox"). %2$s is the device manufacturer name
+    %1$s is the name of the app (for example "Iceraven"). %2$s is the device manufacturer name
     and %3$s is the device model.
   -->
   <string name="default_device_name_2">%1$s no %2$s %3$s</string>
@@ -1233,7 +1233,7 @@
   -->
   <string name="fxa_received_tab_channel_name">Separadores recebidos</string>
   <!-- Description of the "receive tabs" notification channel. Displayed in the "App notifications" system settings for the app -->
-  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Notificações para separadores recebidos de outros dispositivos Firefox.</string>
+  <string name="fxa_received_tab_channel_description" tools:ignore="BrandUsage">Notificações para separadores recebidos de outros dispositivos Iceraven.</string>
   <!-- The body for these is the URL of the tab received -->
   <string name="fxa_tab_received_notification_name">Separador recebido</string>
   <!-- %s is the device name -->
@@ -1264,8 +1264,8 @@
   <string name="preference_usage_data_2">Enviar dados técnicos e de interação</string>
   <!-- Preference switch for usage and technical learn more link in new compose -->
   <string name="preference_usage_data_learn_more_2">Saber mais sobre os dados técnicos</string>
-  <!-- Preference description for marketing data collection. Note: The words "Firefox" should NOT be translated -->
-  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Os dados sobre o seu dispositivo, configuração de hardware e utilização ajudam-nos a melhorar as funcionalidades, desempenho e estabilidade do Firefox.</string>
+  <!-- Preference description for marketing data collection. Note: The words "Iceraven" should NOT be translated -->
+  <string name="preferences_usage_data_description_1" tools:ignore="BrandUsage">Os dados sobre o seu dispositivo, configuração de hardware e utilização ajudam-nos a melhorar as funcionalidades, desempenho e estabilidade do Iceraven.</string>
   <!-- Preference switch for daily usage ping data collection -->
   <string name="preferences_daily_usage_ping_title">Ping de utilização diária</string>
   <string name="preferences_daily_usage_ping_description">Isto ajuda a Mozilla a estimar os utilizadores ativos.</string>
@@ -1286,9 +1286,9 @@
   <string name="preferences_marketing_data_2">Dados de medição de campanha</string>
   <!--
     Preference description for marketing data collection.
-    Note: The words "Firefox" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Firefox after installing it; not that Firefox is tracking their “usage” or what they’re using it for.
+    Note: The words "Iceraven" and "Mozilla" should NOT be translated. “That you use it” is to mean that the user is opting in to sharing that they are continuing to use Iceraven after installing it; not that Iceraven is tracking their “usage” or what they’re using it for.
   -->
-  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Partilhe como descobriu o Firefox e que o utiliza, com os parceiros de tecnologia de marketing da Mozilla.</string>
+  <string name="preferences_marketing_data_description_4" tools:ignore="BrandUsage">Partilhe como descobriu o Iceraven e que o utiliza, com os parceiros de tecnologia de marketing da Mozilla.</string>
   <!-- Learn more link for marketing data preference -->
   <string name="preferences_marketing_data_learn_more">Saber mais sobres as informações de marketing</string>
   <!-- Title for studies preferences -->
@@ -1507,8 +1507,8 @@
   <string name="studies_active">Ativo</string>
   <!-- Description for studies -->
   <string name="studies_description_3" moz:removedIn="148" tools:ignore="UnusedResources">Experimente funcionalidades e ideias antes de serem disponibilizadas para todos.</string>
-  <!-- Description for studies. Note: The word "Firefox" should NOT be translated -->
-  <string name="studies_description_4" tools:ignore="BrandUsage">O Firefox seleciona aleatoriamente utilizadores para testar funcionalidades, o que melhora a qualidade para todos.</string>
+  <!-- Description for studies. Note: The word "Iceraven" should NOT be translated -->
+  <string name="studies_description_4" tools:ignore="BrandUsage">O Iceraven seleciona aleatoriamente utilizadores para testar funcionalidades, o que melhora a qualidade para todos.</string>
   <!-- Title of the Studies data preference -->
   <string name="studies_title" moz:removedIn="148" tools:ignore="UnusedResources">Instalar e executar estudos</string>
   <!-- Title of the Studies data preference -->
@@ -1521,8 +1521,8 @@
     Title of the Remote Improvements (rollouts) data preference
   -->
   <string name="remote_improvements_title">Permitir melhorias remotas</string>
-  <!-- Description for remote improvements. Note: The word "Firefox" should NOT be translated -->
-  <string name="remote_improvements_description" tools:ignore="BrandUsage">O Firefox irá melhorar funcionalidades, desempenho e estabilidade entre atualizações. Alterações aplicadas remotamente.</string>
+  <!-- Description for remote improvements. Note: The word "Iceraven" should NOT be translated -->
+  <string name="remote_improvements_description" tools:ignore="BrandUsage">O Iceraven irá melhorar funcionalidades, desempenho e estabilidade entre atualizações. Alterações aplicadas remotamente.</string>
   <!-- Learn more link for remote improvements, links to an article for more information about rollouts. -->
   <string name="remote_improvements_learn_more">Saber mais</string>
   <!-- Title for remote improvements preference in Advanced settings -->
@@ -1636,7 +1636,7 @@
   <string name="remove_top_site">Remover</string>
   <!-- Text for the menu button to delete a top site from history -->
   <string name="delete_from_history">Eliminar do histórico</string>
-  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Postfix for private WebApp titles. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="pwa_site_controls_title_private">%1$s (modo privado)</string>
   <!-- Content description (not visible, for screen readers etc.) for the button to open the Tab Search feature to search through tabs. -->
   <string name="tab_manager_open_tab_search">Abrir pesquisa de separador</string>
@@ -1873,7 +1873,7 @@
     The title of the Web Compat Reporter feature. This is displayed in the top app bar.
   -->
   <string name="webcompat_reporter_screen_title">Reportar site com problemas</string>
-  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Firefox") and %2$s is the learn more button. -->
+  <!-- The description of the Web Compat Reporter feature, which has a "learn more" button text for navigating to a SUMO link to learn more about reporting a broken site. %1$s is the name of the app (for example "Iceraven") and %2$s is the learn more button. -->
   <string name="webcompat_reporter_description_3">O seu relatório ajuda-nos a compreender e a corrigir problemas no %1$s para o tornar melhor para todos. %2$s</string>
   <!-- The button text for navigating to the SUMO link to learn more about reporting a broken site. -->
   <string name="webcompat_reporter_learn_more">Saber mais</string>
@@ -1934,7 +1934,7 @@
   <!--
     Crashes
 
-    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Firefox").
+    Title text displayed on the tab crash page. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="tab_crash_title_2">Desculpe. O %1$s não pode carregar essa página.</string>
   <!-- Send crash report checkbox text on the tab crash page -->
@@ -1943,11 +1943,11 @@
   <string name="tab_crash_close">Fechar separador</string>
   <!-- Restore tab button text on the tab crash page -->
   <string name="tab_crash_restore">Restaurar separador</string>
-  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Firefox"). -->
+  <!-- Unsubmitted crash dialog title, %s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crash_dialog_title_2">O %s falhou. Enviar um relatório?</string>
-  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Single unsubmitted crash matching remote settings. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crash_requested_by_devs_dialog_title">Tem um relatório de falha não enviado relacionado com falhas sob investigação. O envio irá ajudar-nos a melhorar o %1$s. Fechar esta notificação irá ignorar este relatório.</string>
-  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Firefox"). -->
+  <!-- Multiple unsubmitted crashes matching remote settings. %1$d is the number of unsent crash reports, %2$s is the name of the app (for example "Iceraven"). -->
   <string name="unsubmitted_crashes_requested_by_devs_dialog_title">Tem relatórios de falha não enviados (%1$d) relacionados com falhas em investigação. O respetivo envio irá ajudar-nos a melhorar o %2$s. Fechar esta notificação irá ignorar estes relatórios.</string>
   <!-- Unsubmitted crash dialog checkbox label for automatically sending reports in the future -->
   <string name="unsubmitted_crash_dialog_checkbox_label">Enviar relatórios de falha automaticamente</string>
@@ -2286,7 +2286,7 @@
   <!-- An option to connect additional devices -->
   <string name="sync_connect_device">Ligar outro dispositivo</string>
   <!-- The dialog text shown when additional devices are not available -->
-  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Para enviar um separador, inicie sessão no Firefox em, pelo menos, um outro dispositivo.</string>
+  <string name="sync_connect_device_dialog" tools:ignore="BrandUsage">Para enviar um separador, inicie sessão no Iceraven em, pelo menos, um outro dispositivo.</string>
   <!-- Confirmation dialog button -->
   <string name="sync_confirmation_button">Compreendi</string>
   <!-- Share error message -->
@@ -2299,9 +2299,9 @@
   <string name="sync_add_new_device_learn_button">Aprenda sobre o envio de separadores…</string>
   <!-- Text for the button to connect another device -->
   <string name="sync_add_new_device_connect_button">Associar outro dispositivo…</string>
-  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Iceraven) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template" tools:ignore="UnusedResources">%1$s\n\nEnviado do %2$s 🦊 Experimente o navegador móvel: %3$s</string>
-  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Firefox) and %3$s is a download link for the app. -->
+  <!-- A short message template for the shared link with a footer. %1$s is the shared link, %2$s is the app name (e.g. Iceraven) and %3$s is a download link for the app. -->
   <string name="sent_from_firefox_template_short" tools:ignore="UnusedResources">%1$s\n\nEnviado do %2$s 🦊 %3$s</string>
   <!--
     Notifications
@@ -2318,12 +2318,12 @@
     Title shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">O Firefox é rápido e privado</string>
+  <string name="nimbus_notification_default_browser_title" tools:ignore="BrandUsage,UnusedResources">O Iceraven é rápido e privado</string>
   <!--
     Text shown in the notification that pops up to remind the user to set fenix as default browser.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Torne o Firefox no seu navegador predefinido</string>
+  <string name="nimbus_notification_default_browser_text" tools:ignore="BrandUsage,UnusedResources">Torne o Iceraven no seu navegador predefinido</string>
   <!-- Title shown in the notification that pops up to re-engage the user -->
   <string name="notification_re_engagement_title" tools:ignore="UnusedResources" moz:removedIn="150">Experimente a navegação privada</string>
   <!--
@@ -2348,7 +2348,7 @@
     Text shown in the fullscreen message that pops up to ask user to take a short survey.
     The app name is in the text, due to limitations with localizing Nimbus experiments
   -->
-  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Por favor, ajude a melhorar o Firefox respondendo a um breve questionário.</string>
+  <string name="nimbus_survey_message_text" tools:ignore="BrandUsage">Por favor, ajude a melhorar o Iceraven respondendo a um breve questionário.</string>
   <!-- Preference for taking the short survey. -->
   <string name="preferences_take_survey">Preencher questionário</string>
   <!-- Preference for not taking the short survey. -->
@@ -2375,7 +2375,7 @@
   <string name="snackbar_deleted_undo">ANULAR</string>
   <!--
     QR code scanner prompt which appears after scanning a code, but before navigating to it
-    %1$s is the name of the app (for example "Firefox"), %2$s is the URL or text scanned
+    %1$s is the name of the app (for example "Iceraven"), %2$s is the URL or text scanned
   -->
   <string name="qr_scanner_confirmation_dialog_message">Permitir que o %1$s abra %2$s</string>
   <!-- QR code scanner prompt dialog positive option to allow navigation to scanned link -->
@@ -2447,7 +2447,7 @@
   <string name="delete_history_prompt_button_today_and_yesterday">Hoje e ontem</string>
   <!-- Radio button in the delete browsing data dialog to delete all history. -->
   <string name="delete_history_prompt_button_everything">Tudo</string>
-  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Dialog message to the user asking to delete browsing data. %s is the name of the app (for example "Iceraven"). -->
   <string name="delete_browsing_data_prompt_message_3">O %s irá eliminar os dados de navegação selecionados.</string>
   <!-- Text for the cancel button for the data deletion dialog -->
   <string name="delete_browsing_data_prompt_cancel">Cancelar</string>
@@ -2486,16 +2486,16 @@
   <!-- Title of QR Pairing Fragment -->
   <string name="sync_scan_code">Digitalize o código</string>
   <!-- Instructions on how to access pairing -->
-  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[No seu computador, abra o Firefox e aceda a <b>https://firefox.com/pair</b>]]></string>
+  <string name="sign_in_instructions" tools:ignore="BrandUsage"><![CDATA[No seu computador, abra o Iceraven e aceda a <b>https://firefox.com/pair</b>]]></string>
   <!-- Text shown for sign in pairing when ready -->
   <string name="sign_in_ready_for_scan">Pronto para digitalizar</string>
   <!-- Text shown for settings option for sign with pairing -->
   <string name="sign_in_with_camera">Inicie sessão com a sua câmara</string>
   <!-- Text shown for settings option for sign with email -->
   <string name="sign_in_with_email">Como alternativa, utilizar o e-mail</string>
-  <!-- Text shown for settings option for create new account text.'Firefox' intentionally hardcoded here. -->
-  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Sem conta? <u>Crie uma conta</u> para sincronizar o Firefox entre os dispositivos.]]></string>
-  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Firefox"). -->
+  <!-- Text shown for settings option for create new account text.'Iceraven' intentionally hardcoded here. -->
+  <string name="sign_in_create_account_text" tools:ignore="BrandUsage"><![CDATA[Sem conta? <u>Crie uma conta</u> para sincronizar o Iceraven entre os dispositivos.]]></string>
+  <!-- Text shown in confirmation dialog to sign out of account. %s is the name of the app (for example "Iceraven"). -->
   <string name="sign_out_confirmation_message_2">O %s irá suspender a sincronização com a sua conta, mas não irá eliminar quaisquer dados de navegação seus neste dispositivo.</string>
   <!-- Option to continue signing out of account shown in confirmation dialog to sign out of account -->
   <string name="sign_out_disconnect">Desassociar</string>
@@ -2513,7 +2513,7 @@
   <string name="preference_enhanced_tracking_protection">Proteção melhorada contra a monitorização</string>
   <!-- Preference summary for enhanced tracking protection settings on/off switch -->
   <string name="preference_enhanced_tracking_protection_summary">Agora apresentando a Proteção Total de Cookies, a nossa barreira mais poderosa contra rastreadores entre sites.</string>
-  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of enhanced tracking protection. %s is the name of the app (for example "Iceraven"). -->
   <string name="preference_enhanced_tracking_protection_explanation_2">O %s protege-o de muitos dos rastreadores mais comuns que monitorizam o que faz na Internet.</string>
   <!-- Text displayed that links to website about enhanced tracking protection -->
   <string name="preference_enhanced_tracking_protection_explanation_learn_more">Saber mais</string>
@@ -2639,11 +2639,11 @@
     back from ETP details (Ex: Tracking content)
   -->
   <string name="etp_back_button_content_description">Navegar de volta</string>
-  <!-- About page link text to open what's new link. %s is the name of the app (for example "Firefox"). -->
+  <!-- About page link text to open what's new link. %s is the name of the app (for example "Iceraven"). -->
   <string name="about_whats_new">Novidades do %s</string>
   <!--
     Open source licenses page title
-    %s is the name of the app (for example "Firefox")
+    %s is the name of the app (for example "Iceraven")
   -->
   <string name="open_source_licenses_title">%s | Bibliotecas de código aberto</string>
   <!-- Category of trackers (redirect trackers) that can be blocked by Enhanced Tracking Protection -->
@@ -2740,7 +2740,7 @@
   <string name="preference_doh_provider_custom_dialog_add">Adicionar</string>
   <!-- Preference to access list of login exceptions that we don't use DNS over HTTPS -->
   <string name="preference_doh_exceptions">Exceções</string>
-  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Description of "exceptions" for "DNS over HTTPS". %1$s is the name of the app (for example "Iceraven"). -->
   <string name="preference_doh_exceptions_summary">O %1$s não irá utilizar o DNS seguro nestes sites e respetivos subdomínios.</string>
   <!-- Text displayed that links to adding website domain for "DNS over HTTPS" exceptions. -->
   <string name="preference_doh_exceptions_add">Adicionar site</string>
@@ -2806,9 +2806,9 @@
   <string name="preferences_passwords_save_logins_ask_to_save">Pedir para guardar</string>
   <!-- Preference option for never saving passwords in Fenix -->
   <string name="preferences_passwords_save_logins_never_save">Nunca guardar</string>
-  <!-- Preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Preference for autofilling saved logins in Iceraven (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill2">Preencher automaticamente no %1$s</string>
-  <!-- Description for the preference for autofilling saved logins in Firefox (in web content), %1$s will be replaced with the app name -->
+  <!-- Description for the preference for autofilling saved logins in Iceraven (in web content), %1$s will be replaced with the app name -->
   <string name="preferences_passwords_autofill_description">Preencher e guardar nomes de utilizador e palavras-passe em site ao utilizar o %1$s.</string>
   <!-- Preference for autofilling logins from Fenix in other apps (e.g. autofilling the Twitter app) -->
   <string name="preferences_android_autofill">Preencher automaticamente noutras aplicações</string>
@@ -2822,15 +2822,15 @@
   <string name="preferences_passwords_sync_logins_across_devices_2">Sincronize palavras-passe entre dispositivos</string>
   <!-- Preference to access list of saved passwords -->
   <string name="preferences_passwords_saved_logins_2">Palavras-passe guardadas</string>
-  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of empty list of saved passwords. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_saved_logins_description_empty_text_2">As palavras-passe que guardar ou sincronizar com o %s serão listadas aqui. Todas as palavras-passe que guarda são encriptadas.</string>
   <!-- Clickable text for opening an external link for more information about Sync. -->
   <string name="preferences_passwords_saved_logins_description_empty_learn_more_link_2">Saber mais sobre a sincronização</string>
   <!-- Preference to access list of login exceptions that we never save logins for -->
   <string name="preferences_passwords_exceptions">Exceções</string>
-  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Empty description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_exceptions_description_empty_2">O %s não irá guardar palavras-passe para sites listados aqui.</string>
-  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Firefox"). -->
+  <!-- Description of list of login exceptions that we never save passwords for. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_passwords_exceptions_description_2">O %s não irá guardar as palavras-passe para estes sites.</string>
   <!-- Text on button to remove all saved login exceptions -->
   <string name="preferences_passwords_exceptions_remove_all">Eliminar todas as exceções</string>
@@ -2922,11 +2922,11 @@
   <string name="preferences_email_masks_suggest_summary">Oculte o seu e-mail real para proteger a sua caixa de entrada de spam. Alguns sites não suportam máscaras de e-mail.</string>
   <!-- Text that links to additional information about the Email Masks -->
   <string name="preferences_email_masks_suggest_learn_more">Saber mais</string>
-  <!-- Title for the Manage Email Masks links to Firefox Relay dashboard -->
+  <!-- Title for the Manage Email Masks links to Iceraven Relay dashboard -->
   <string name="preferences_email_masks_manage_title">Gerir máscaras de e-mail</string>
   <!-- The message displayed when a user has used all of their free-tier email masks, so now the application will choose an existing one at random. -->
   <string name="email_masks_max_free_tier_reached">Já utilizou as suas 5 máscaras de e-mail gratuitas, por isso selecionámos uma para ser reutilizada.</string>
-  <!-- The message displayed when there was an error with the email mask or Firefox Account services. -->
+  <!-- The message displayed when there was an error with the email mask or Iceraven Account services. -->
   <string name="email_masks_error_retrieving_masks">As máscaras de e-mail ainda não estão disponíveis. Tente novamente dentro de alguns minutos.</string>
   <!--
     Autofill
@@ -2940,7 +2940,7 @@
   <string name="preferences_credit_cards_2">Métodos de pagamento</string>
   <!-- Preference for saving and autofilling credit cards -->
   <string name="preferences_credit_cards_save_and_autofill_cards_2">Guardar e preencher métodos de pagamento</string>
-  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Firefox"). -->
+  <!-- Preference summary for saving and autofilling payment method data. %s is the name of the app (for example "Iceraven"). -->
   <string name="preferences_credit_cards_save_and_autofill_cards_summary_2">O %s encripta todos os métodos de pagamento que guarda</string>
   <!-- Preference option for syncing credit cards across devices. This is displayed when the user is not signed into sync -->
   <string name="preferences_credit_cards_sync_cards_across_devices">Sincronizar cartões entre dispositivos</string>
@@ -3215,13 +3215,13 @@
   <string name="synced_tabs_connect_another_device">Associar outro dispositivo.</string>
   <!-- Text displayed asking user to re-authenticate -->
   <string name="synced_tabs_reauth">Por favor, autentique-se novamente.</string>
-  <!-- Text displayed when user has disabled tab syncing in Firefox Sync Account -->
+  <!-- Text displayed when user has disabled tab syncing in Iceraven Sync Account -->
   <string name="synced_tabs_enable_tab_syncing">Por favor, ative a sincronização de separadores.</string>
   <!-- Text displayed when user has no tabs that have been synced -->
-  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Não tem quaisquer separadores abertos no Firefox dos seus outros dispositivos.</string>
-  <!-- Text displayed in the synced tabs screen when a user is not signed in to Firefox Sync describing Synced Tabs -->
+  <string name="synced_tabs_no_tabs" tools:ignore="BrandUsage">Não tem quaisquer separadores abertos no Iceraven dos seus outros dispositivos.</string>
+  <!-- Text displayed in the synced tabs screen when a user is not signed in to Iceraven Sync describing Synced Tabs -->
   <string name="synced_tabs_sign_in_message">Ver uma lista de separadores dos seus outros dispositivos.</string>
-  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Firefox Sync -->
+  <!-- Text displayed on a button in the synced tabs screen to link users to sign in when a user is not signed in to Iceraven Sync -->
   <string name="synced_tabs_sign_in_button">Iniciar sessão para sincronizar</string>
   <!-- The text displayed when a synced device has no tabs to show in the list of Synced Tabs. -->
   <string name="synced_tabs_no_open_tabs">Sem separadores abertos</string>
@@ -3296,7 +3296,7 @@
   -->
   <string name="inactive_tabs_auto_close_message_header" tools:ignore="UnusedResources">Auto-encerrar após um mês?</string>
   <!-- A description below the header to notify the user what the inactive tabs auto-close feature is. -->
-  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">O Firefox pode encerrar separadores que não acedeu no último mês.</string>
+  <string name="inactive_tabs_auto_close_message_description" tools:ignore="BrandUsage,UnusedResources">O Iceraven pode encerrar separadores que não acedeu no último mês.</string>
   <!-- A call to action below the description to allow the user to turn on the auto closing of inactive tabs. -->
   <string name="inactive_tabs_auto_close_message_action" tools:ignore="UnusedResources">ATIVAR O ENCERRAMENTO AUTOMÁTICO</string>
   <!-- Text for the snackbar to confirm auto-close is enabled for inactive tabs -->
@@ -3304,9 +3304,9 @@
   <!--
     Awesome bar suggestion's headers
 
-    Search suggestions title for Firefox Suggest.
+    Search suggestions title for Iceraven Suggest.
   -->
-  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Sugestões Firefox</string>
+  <string name="firefox_suggest_header" tools:ignore="BrandUsage">Sugestões Iceraven</string>
   <!--
     Search suggestions title for trending search suggestions.
     %s is a placeholder for the name of the search engine providing the trending search suggestions.
@@ -3325,7 +3325,7 @@
   -->
   <string name="default_browser_experiment_card_title">Alterar o seu navegador predefinido</string>
   <!-- Default browser card text -->
-  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Definir para que as ligações de sites, e-mails e mensagens sejam abertas automaticamente no Firefox.</string>
+  <string name="default_browser_experiment_card_text" tools:ignore="BrandUsage">Definir para que as ligações de sites, e-mails e mensagens sejam abertas automaticamente no Iceraven.</string>
   <!-- Content description for close button in collection placeholder. -->
   <string name="remove_home_collection_placeholder_content_description">Remover</string>
   <!-- Content description radio buttons with a link to more information -->
@@ -3395,11 +3395,11 @@
     %2$s is the name of the language that the page was translated to, for example, "English".
   -->
   <string name="translations_bottom_sheet_title_translation_completed">Página traduzida de %1$s para %2$s</string>
-  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for the translation dialog that allows a user to translate the webpage when a user uses the translation feature the first time. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="translations_bottom_sheet_title_first_time">Experimente as traduções privadas no %1$s</string>
   <!-- Additional information on the translation dialog that appears when a user uses the translation feature the first time. %1$s is a link using translations_bottom_sheet_info_message_learn_more as text. -->
   <string name="translations_bottom_sheet_info_message">Pela sua privacidade, as traduções nunca deixam o seu dispositivo. Novos idiomas e melhorias para breve! %1$s</string>
-  <!-- Text that links to additional information about the Firefox translations feature. -->
+  <!-- Text that links to additional information about the Iceraven translations feature. -->
   <string name="translations_bottom_sheet_info_message_learn_more">Saber mais</string>
   <!-- Label for the dropdown to select which language to translate from on the translations dialog. Usually the translate from language selected will be the same as the page language. -->
   <string name="translations_bottom_sheet_translate_from">Traduzir de</string>
@@ -3460,7 +3460,7 @@
   <string name="translation_option_bottom_sheet_switch_description">Sobrepõe pedidos de tradução</string>
   <!-- Button text for the button that will take the user to the translation settings dialog. -->
   <string name="translation_option_bottom_sheet_translation_settings">Definições de tradução</string>
-  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Button text for the button that will take the user to a website to learn more about how translations works in the given app. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="translation_option_bottom_sheet_about_translations">Sobre as traduções no %1$s</string>
   <!-- Content description (not visible, for screen readers etc.) for closing the translations bottom sheet. -->
   <string name="translation_option_bottom_sheet_close_content_description">Fechar folha de traduções</string>
@@ -3500,15 +3500,15 @@
     Preference option for offering to translate. Radio button title text.
   -->
   <string name="automatic_translation_option_offer_to_translate_title_preference">Oferecer para traduzir (predefinição)</string>
-  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for offering to translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_offer_to_translate_summary_preference">%1$s irá sugerir a tradução de sites neste idioma.</string>
   <!-- Preference option for always translate. Radio button title text. -->
   <string name="automatic_translation_option_always_translate_title_preference">Traduzir sempre</string>
-  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for always translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_always_translate_summary_preference">O %1$s irá traduzir este idioma automaticamente quando a página for carregada.</string>
   <!-- Preference option for never translate. Radio button title text. -->
   <string name="automatic_translation_option_never_translate_title_preference">Nunca traduzir</string>
-  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Preference option for never translate. Radio button summary text. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="automatic_translation_option_never_translate_summary_preference">O %1$s nunca irá sugerir para traduzir sites neste idioma.</string>
   <!--
     Never translate site preference screen
@@ -3590,7 +3590,7 @@
     %1$s is the name of the language, for example, "Spanish" and %2$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_file_dialog_title">Eliminar %1$s (%2$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting a language. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="delete_language_file_dialog_message">Se eliminar este idioma, o %1$s irá transferir idiomas parciais para a sua cache à medida que você traduz.</string>
   <!--
     Title for the dialog used by the translations feature to confirm deleting all languages file.
@@ -3598,7 +3598,7 @@
     %1$s is the size in kilobytes or megabytes of the language file.
   -->
   <string name="delete_language_all_languages_file_dialog_title">Eliminar todos os idiomas (%1$s)?</string>
-  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Additional information for the dialog used by the translations feature to confirm deleting all languages file. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="delete_language_all_languages_file_dialog_message">Se eliminar todos os idiomas, o %1$s irá transferir idiomas parciais para a sua cache à medida que você traduz.</string>
   <!-- Button text on the dialog used by the translations feature to confirm deleting a language. -->
   <string name="delete_language_file_dialog_positive_button_text">Eliminar</string>
@@ -3633,12 +3633,12 @@
   <string name="protection_panel_banner_not_protected_title">Desativou as proteções</string>
   <!--
     Description text for the protection panel banner when tracking protection is disabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Iceraven").
   -->
   <string name="protection_panel_banner_not_protected_description">%s não está ao serviço. Sugerimos que reative as proteções.</string>
   <!--
     Title text for the protection panel banner when tracking protection is enabled.
-    %s is the name of the app (for example "Firefox").
+    %s is the name of the app (for example "Iceraven").
   -->
   <string name="protection_panel_banner_protected_title">%s está de guarda</string>
   <!-- Description text for the protection panel banner when tracking protection is enabled. -->
@@ -3676,7 +3676,7 @@
     %s is a placeholder for the name of the tracker category.
     %d is a placeholder for the number of trackers blocked.
   -->
-  <string name="trackers_blocked_panel_categorical_num_trackers_blocked">%s: %d</string>
+  <string name="trackers_blocked_panel_categorical_num_trackers_blocked">%1$s: %2$d</string>
   <!--
     Description text for a dialog confirming whether the user wants to delete all data for current site.
     %s is a placeholder for the base domain of website.
@@ -3759,9 +3759,9 @@
 
     Prompt view
 
-    The microsurvey prompt title. Note: The word "Firefox" should NOT be translated
+    The microsurvey prompt title. Note: The word "Iceraven" should NOT be translated
   -->
-  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Ajude-nos a tornar o Firefox melhor. Demora apenas um minuto.</string>
+  <string name="micro_survey_prompt_title" tools:ignore="BrandUsage,UnusedResources">Ajude-nos a tornar o Iceraven melhor. Demora apenas um minuto.</string>
   <!-- The continue button label -->
   <string name="micro_survey_continue_button_label" tools:ignore="UnusedResources">Continuar</string>
   <!--
@@ -3790,8 +3790,8 @@
   <string name="likert_scale_option_5" tools:ignore="UnusedResources">Muito insatisfeito(a)</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_6" tools:ignore="UnusedResources">Não utilizo</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Eu não utilizo a pesquisa no Firefox</string>
+  <!-- Option for likert scale. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="likert_scale_option_7" tools:ignore="BrandUsage,UnusedResources">Eu não utilizo a pesquisa no Iceraven</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_8" tools:ignore="UnusedResources">Eu não utilizo a sincronização</string>
   <!-- Option for likert scale -->
@@ -3802,30 +3802,30 @@
   <string name="likert_scale_option_confusing_or_hard_to_use" tools:ignore="UnusedResources">É confuso ou difícil de utilizar</string>
   <!-- Option for likert scale -->
   <string name="likert_scale_option_its_okay" tools:ignore="UnusedResources">Não está mal, mas não supera outros navegadores</string>
-  <!-- Option for likert scale. Note: The word "Firefox" should NOT be translated. -->
-  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">Pretendo continuar a utilizar o Firefox</string>
-  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Ajude a melhorar a impressão no Firefox. Isto demora apenas um segundo</string>
-  <!-- Text shown in prompt for search microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Ajude a melhorar a pesquisa no Firefox. Demora apenas um minuto</string>
-  <!-- Text shown in prompt for sync microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Ajude a melhorar a sincronização no Firefox. Demora apenas um minuto</string>
-  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Qual é o seu nível de satisfação com a impressão no Firefox?</string>
-  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Qual o seu grau de satisfação com a sua página inicial do Firefox?</string>
-  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Qual o seu grau de satisfação com a experiência de pesquisa no Firefox?</string>
-  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Qual o seu grau de satisfação com a experiência de sincronização no Firefox?</string>
-  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Firefox" should NOT be translated. -->
-  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Ajude-nos a melhorar o Firefox. Como descreveria a sua experiência até agora?</string>
+  <!-- Option for likert scale. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="likert_scale_option_i_plan_to_keep_using" tools:ignore="BrandUsage,UnusedResources">Pretendo continuar a utilizar o Iceraven</string>
+  <!-- Text shown in prompt for printing microsurvey. "sec" It's an abbreviation for "second". Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_printing_title" tools:ignore="BrandUsage,UnusedResources">Ajude a melhorar a impressão no Iceraven. Isto demora apenas um segundo</string>
+  <!-- Text shown in prompt for search microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_search_title" tools:ignore="BrandUsage,UnusedResources">Ajude a melhorar a pesquisa no Iceraven. Demora apenas um minuto</string>
+  <!-- Text shown in prompt for sync microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_prompt_sync_title" tools:ignore="BrandUsage,UnusedResources">Ajude a melhorar a sincronização no Iceraven. Demora apenas um minuto</string>
+  <!-- Text shown in the survey title for printing microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_survey_printing_title" tools:ignore="BrandUsage,UnusedResources">Qual é o seu nível de satisfação com a impressão no Iceraven?</string>
+  <!-- Text shown in the survey title for homepage microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_homepage_title" tools:ignore="BrandUsage,UnusedResources">Qual o seu grau de satisfação com a sua página inicial do Iceraven?</string>
+  <!-- Text shown in the survey title for search experience microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_search_title" tools:ignore="BrandUsage,UnusedResources">Qual o seu grau de satisfação com a experiência de pesquisa no Iceraven?</string>
+  <!-- Text shown in the survey title for sync experience microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_sync_title" tools:ignore="BrandUsage,UnusedResources">Qual o seu grau de satisfação com a experiência de sincronização no Iceraven?</string>
+  <!-- Text shown in the survey title for 'describe your experience so far' microsurvey. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="microsurvey_describe_your_experience_title" tools:ignore="BrandUsage,UnusedResources">Ajude-nos a melhorar o Iceraven. Como descreveria a sua experiência até agora?</string>
   <!--
     Accessibility
 
-    Content description for the survey application icon. Note: The word "Firefox" should NOT be translated.
+    Content description for the survey application icon. Note: The word "Iceraven" should NOT be translated.
   -->
-  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Logótipo do Firefox</string>
+  <string name="microsurvey_app_icon_content_description" tools:ignore="BrandUsage">Logótipo do Iceraven</string>
   <!-- Content description for the survey feature icon. -->
   <string name="microsurvey_feature_icon_content_description">Ícone da funcionalidade de questionário</string>
   <!-- Content description (not visible, for screen readers etc.) for closing microsurvey bottom sheet. -->
@@ -3937,36 +3937,36 @@
   <!--
     Root certificate expiration warnings
 
-    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Firefox. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Firefox's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
+    These strings for homepage cards and push notifications to be pushed to users running outdated versions of Iceraven. We want to encourage these users to update to the latest version so their extensions and other features don't stop working when Iceraven's old root certificate expires on 2025-03-14. For more information, see this SUMO article: https://support.mozilla.org/kb/root-certificate-expiration !
 
     Homepage card button to open Google Play Store. "Update" is a verb.
   -->
   <string name="certificate_warning_homepage_card_update_now_button" tools:ignore="UnusedResources">Atualizar agora</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Atualize o seu Firefox</string>
-  <!-- Homepage card message about old Firefox version -->
+  <!-- Homepage card title about old Iceraven version. "Update" is a verb. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hca1_title" tools:ignore="BrandUsage,UnusedResources">Atualize o seu Iceraven</string>
+  <!-- Homepage card message about old Iceraven version -->
   <string name="certificate_warning_homepage_card_hca1_message" tools:ignore="UnusedResources">Um certificado raiz irá expirar, o que fará com que algumas funcionalidades deixem de funcionar a 14 de março.</string>
-  <!-- Homepage card title about old Firefox version. "Update" is a verb. -->
+  <!-- Homepage card title about old Iceraven version. "Update" is a verb. -->
   <string name="certificate_warning_homepage_card_hcr1_title" tools:ignore="UnusedResources">Atualiza antes de 14 de março</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">Um certificado raiz irá expirar, o que fará com que a sua versão do Firefox deixe de funcionar corretamente.</string>
-  <!-- Homepage card title about old Firefox version -->
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcr1_message" tools:ignore="BrandUsage,UnusedResources">Um certificado raiz irá expirar, o que fará com que a sua versão do Iceraven deixe de funcionar corretamente.</string>
+  <!-- Homepage card title about old Iceraven version -->
   <string name="certificate_warning_homepage_card_hcw2_title" tools:ignore="UnusedResources">Faltam menos de 7 dias para atualizar</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">A 14 de março, os extras e outras funcionalidades do Firefox vão deixar de funcionar porque um certificado raiz está a expirar.</string>
-  <!-- Homepage card title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Última oportunidade para manter o seu Firefox</string>
-  <!-- Homepage card message about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">A sua versão do Firefox irá deixar de funcionar corretamente no dia 14 de março porque um certificado raiz está a expirar.</string>
-  <!-- Push notification title about old Firefox version. "Update" is a noun. -->
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw2_message" tools:ignore="BrandUsage,UnusedResources">A 14 de março, os extras e outras funcionalidades do Iceraven vão deixar de funcionar porque um certificado raiz está a expirar.</string>
+  <!-- Homepage card title about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_title" tools:ignore="BrandUsage,UnusedResources">Última oportunidade para manter o seu Iceraven</string>
+  <!-- Homepage card message about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_homepage_card_hcw3_message" tools:ignore="BrandUsage,UnusedResources">A sua versão do Iceraven irá deixar de funcionar corretamente no dia 14 de março porque um certificado raiz está a expirar.</string>
+  <!-- Push notification title about old Iceraven version. "Update" is a noun. -->
   <string name="certificate_warning_push_notification_update_recommended_title" tools:ignore="UnusedResources">Atualização recomendada</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Iceraven version -->
   <string name="certificate_warning_push_notification_pnr1_message" tools:ignore="UnusedResources">Os extras e algumas funcionalidades deixarão de funcionar a 14 de março.</string>
-  <!-- Push notification title about old Firefox version. Note: The word "Firefox" should NOT be translated. -->
-  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">Está a utilizar uma versão antiga do Firefox</string>
-  <!-- Push notification message about old Firefox version. "Update" is a verb. -->
+  <!-- Push notification title about old Iceraven version. Note: The word "Iceraven" should NOT be translated. -->
+  <string name="certificate_warning_push_notification_pnw2_title" tools:ignore="BrandUsage,UnusedResources">Está a utilizar uma versão antiga do Iceraven</string>
+  <!-- Push notification message about old Iceraven version. "Update" is a verb. -->
   <string name="certificate_warning_push_notification_pnw2_message" tools:ignore="UnusedResources">Atualize antes de 14 de março para continuar a utilizar extras e outras funcionalidades.</string>
-  <!-- Push notification message about old Firefox version -->
+  <!-- Push notification message about old Iceraven version -->
   <string name="certificate_warning_push_notification_pnw3_message" tools:ignore="UnusedResources">Algumas funcionalidades vão deixar de funcionar amanhã.</string>
   <!-- TextField Design System Component -->
 
@@ -3975,7 +3975,7 @@
 
     ===== Setup checklist feature: Title =====
 
-    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Firefox").
+    Title for the setup checklist feature when the state is 'incomplete'. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_title_state_incomplete">Concluir a configuração de %1$s</string>
   <!-- Title for the setup checklist feature when the state is 'completed' -->
@@ -3983,19 +3983,19 @@
   <!--
     ===== Setup checklist feature: Subtitles for 3 steps =====
 
-    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 3 steps initial step. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_3_steps_initial_state">Conclua estes 3 passos para configurar o %1$s para a melhor experiência de navegação.</string>
   <!-- Subtitle for a setup checklist with 3 steps when the first task is completed. -->
   <string name="setup_checklist_subtitle_3_steps_first_step">Ótimo começo! Concluiu 1 de 3 passos.</string>
   <!-- Subtitle for a setup checklist with 3 steps when two of the tasks are completed. -->
   <string name="setup_checklist_subtitle_3_steps_second_step">Quase lá! 2 passos concluídos e falta apenas 1.</string>
-  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 3 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_3_steps_completed_state">Concluiu todos os 3 passos. Desfrute da velocidade, privacidade e segurança do %1$s.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 6 steps =====
 
-    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 6 steps initial state. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_6_steps_initial_state">Conclua todos os 6 passos para configurar o %1$s para a melhor experiência de navegação.</string>
   <!-- Subtitle for a setup checklist with 6 steps when the first task is completed. -->
@@ -4008,12 +4008,12 @@
   <string name="setup_checklist_subtitle_6_steps_fourth_step">4 passos concluídos. Faltam apenas mais 2!</string>
   <!-- Subtitle for a setup checklist with 6 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_6_steps_fifth_step">Quase lá! Está apenas a 1 passo da meta.</string>
-  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 6 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_6_steps_completed_state">Concluiu todos os 6 passos de configuração. Desfrute da velocidade, privacidade e segurança do %1$s.</string>
   <!--
     ===== Setup checklist feature: Subtitles for 5 steps (Large screen devices don't support toolbar placement) =====
 
-    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Firefox").
+    Subtitle for a setup checklist with 5 steps initial state. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_subtitle_5_steps_initial_state">Conclua todos os 5 passos para configurar o %1$s para a melhor experiência de navegação.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the first task is completed. -->
@@ -4024,7 +4024,7 @@
   <string name="setup_checklist_subtitle_5_steps_third_step">Está a meio caminho! Três passos concluídos e faltam apenas 2.</string>
   <!-- Subtitle for a setup checklist with 5 steps when the fifth task is completed. -->
   <string name="setup_checklist_subtitle_5_steps_fourth_step">Quase lá! Está apenas a 1 passo da meta.</string>
-  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Subtitle for a setup checklist with 5 steps completed state. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_subtitle_5_steps_completed_state">Concluiu todos os 5 passos de configuração. Desfrute da velocidade, privacidade e segurança do %1$s.</string>
   <!--
     ===== Setup checklist feature: Task titles =====
@@ -4045,10 +4045,10 @@
   <!--
     ===== Setup checklist feature: Group titles =====
 
-    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Firefox").
+    The title of the 'essentials' group in the setup checklist. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="setup_checklist_group_essentials">O essencial do %1$s</string>
-  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- The title of the 'customize' group in the setup checklist. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="setup_checklist_group_customize">Personalize o seu %1$s</string>
   <!-- The title of the 'helpful tools' group in the setup checklist -->
   <string name="setup_checklist_group_helpful_tools">Ferramentas úteis</string>
@@ -4091,18 +4091,18 @@
   <!--
     Review prompt
 
-    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Firefox").
+    Title for a prompt asking the user about their experience using the app. %1$s is the name of the app (for example "Iceraven").
   -->
   <string name="review_prompt_pre_prompt_header">O que acha de %1$s?</string>
   <!-- Label for a button negatively rating the user's experience with the app -->
   <string name="review_prompt_negative_button">Estou a ter problemas</string>
   <!-- Label for a button positively rating the user's experience with the app -->
   <string name="review_prompt_positive_button">Está ótimo!</string>
-  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user to rate the app on Google Play Store. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_rate_header">Obrigado por gostar do %1$s. Tem um segundo para espalhar o seu amor com uma avaliação?</string>
-  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Label for a button proceeding to rate the app on Google Play Store. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_rate_button">Avaliar %1$s na Play Store</string>
-  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Firefox"). -->
+  <!-- Title for a prompt asking the user send us feedback. %1$s is the name of the app (for example "Iceraven"). -->
   <string name="review_prompt_feedback_header">Lamentamos que esteja a ter problemas. Diga-nos como podemos melhorar o %1$s.</string>
   <!-- Label for a button opening a feedback forum -->
   <string name="review_prompt_feedback_button">Deixar feedback</string>
@@ -4134,7 +4134,7 @@
   <string name="terms_of_use_prompt_title">Temos uma atualização</string>
   <!--
     Message for the terms of use pop up prompt
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Iceraven"
     %2$s is the string terms_of_use_prompt_link_terms_of_use (Terms of Use) that is a link to the terms of use
     %3$s is the string terms_of_use_prompt_link_privacy_notice (Privacy Notice) that is a link to the privacy notice
   -->
@@ -4160,7 +4160,7 @@
   <string name="terms_of_use_prompt_title_option_a" tools:ignore="UnusedResources">Termos de utilização</string>
   <!--
     A title for the popup prompt.
-    %1$s is the product name "Firefox"
+    %1$s is the product name "Iceraven"
   -->
   <string name="terms_of_use_prompt_title_option_b" tools:ignore="UnusedResources">Uma nota de %1$s</string>
   <!--
@@ -4175,11 +4175,11 @@
   <!--
     Privacy notice homepage banner
 
-    A message we show the user on the homepage when there is a new version of the privacy notice. 'Firefox' is intentionally hardcoded.
+    A message we show the user on the homepage when there is a new version of the privacy notice. 'Iceraven' is intentionally hardcoded.
     %1$s is replaced by an active link using privacy_notice_updated_homepage_message_privacy_notice as text (Privacy Notice)
     %2$s is replaced by an active link using privacy_notice_updated_homepage_message_learn_more as text (Learn more)
   -->
-  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">Atualizámos a nossa %1$s para refletir as funcionalidades mais recentes do Firefox. %2$s</string>
+  <string name="privacy_notice_updated_homepage_message" tools:ignore="BrandUsage,UnusedResources">Atualizámos a nossa %1$s para refletir as funcionalidades mais recentes do Iceraven. %2$s</string>
   <!-- The first active link used in privacy_notice_updated_homepage_message -->
   <string name="privacy_notice_updated_homepage_message_privacy_notice" tools:ignore="UnusedResources">Informação de privacidade</string>
   <!-- The second active link used in privacy_notice_updated_homepage_message -->

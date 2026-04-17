@@ -52,9 +52,9 @@
     <!-- Preference to use the experimental React (The web framework) Mozilla Account page, used only in testing -->
     <string name="preferences_use_react_fxa">Use New React Mozilla Account page</string>
     <!-- Quit app button title for the Sync Debug preferences -->
-    <string name="preferences_sync_debug_quit_button_title">Stop Firefox</string>
+    <string name="preferences_sync_debug_quit_button_title">Stop Iceraven</string>
     <!-- Quit app button summary for the Sync Debug preferences -->
-    <string name="preferences_sync_debug_quit_button_summary">Custom server changes will take effect on the next Firefox run.</string>
+    <string name="preferences_sync_debug_quit_button_summary">Custom server changes will take effect on the next Iceraven run.</string>
     <!-- Button title for simulating an FxA network error inside the Sync Debug menu -->
     <string name="preferences_sync_debug_network_error_button_title">Simulate account network error</string>
     <!-- Button title for simulating an FxA temporary auth error inside the Sync Debug menu -->
@@ -65,8 +65,8 @@
     <string name="preferences_debug_settings_homepage_searchbar" translatable="false">Enable Homepage Search Bar</string>
   <!-- Label for enabling Homepage as a New Tab -->
     <string name="preferences_debug_settings_homepage_as_new_tab" translatable="false">Enable Homepage as a New Tab</string>
-    <!-- Label for enabling Firefox Labs -->
-    <string name="preferences_debug_settings_firefox_labs" translatable="false">Enable Firefox Labs</string>
+    <!-- Label for enabling Iceraven Labs -->
+    <string name="preferences_debug_settings_firefox_labs" translatable="false">Enable Iceraven Labs</string>
     <!-- Label for enabling Browser Mode Toggle -->
     <string name="preferences_debug_settings_browser_mode_toggle" translatable="false">Enable Browser Mode Toggle</string>
     <!-- Label for enabling Merino Client -->
@@ -79,8 +79,8 @@
     <string name="preferences_debug_settings_custom_tab_extensions" translatable="false">Enable Custom Tab Extension List</string>
     <!-- Label for a longer description of the custom tab extensions depending on the menu redesign or composable toolbar feature -->
     <string name="preferences_debug_settings_custom_tab_extensions_summary" translatable="false">This needs the Menu Redesign or Composable Toolbar feature enabled</string>
-    <!-- Label for enabling Firefox Suggest -->
-    <string name="preferences_debug_settings_fxsuggest" translatable="false">Enable Firefox Suggest</string>
+    <!-- Label for enabling Iceraven Suggest -->
+    <string name="preferences_debug_settings_fxsuggest" translatable="false">Enable Iceraven Suggest</string>
     <!-- Label for enabling the composable toolbar -->
     <string name="preferences_debug_settings_composable_toolbar" translatable="false">Enable Composable Toolbar</string>
     <!-- Label for enabling the redesigned toolbar options -->
@@ -164,15 +164,15 @@
     <string name="profiler_active_notification" translatable="false">Profiler active</string>
     <string name="profiler_notification_text" translatable="false">Profiling is active. Tap to stop profiler</string>
     <string name="profiler_settings_title">Profiler Settings</string>
-    <string name="profiler_filter_firefox">Firefox</string>
+    <string name="profiler_filter_firefox">Iceraven</string>
     <string name="profiler_running">Profiler is currently running</string>
-    <string name="profiler_filter_firefox_explain">Recommended preset for profiling Firefox</string>
+    <string name="profiler_filter_firefox_explain">Recommended preset for profiling Iceraven</string>
     <string name="profiler_filter_graphics">Graphics</string>
-    <string name="profiler_filter_graphics_explain">Preset for investigating graphics bugs in Firefox</string>
+    <string name="profiler_filter_graphics_explain">Preset for investigating graphics bugs in Iceraven</string>
     <string name="profiler_filter_media">Media</string>
-    <string name="profiler_filter_media_explain">Preset for investigating audio and video bugs in Firefox</string>
+    <string name="profiler_filter_media_explain">Preset for investigating audio and video bugs in Iceraven</string>
     <string name="profiler_filter_networking">Networking</string>
-    <string name="profiler_filter_networking_explain">Preset for investigating networking bugs in Firefox</string>
+    <string name="profiler_filter_networking_explain">Preset for investigating networking bugs in Iceraven</string>
     <string name="profiler_filter_debug">Debug</string>
     <string name="profiler_filter_debug_explain">Preset for debugging. High overhead, do not use for performance work but use for focusing on understanding browser behavior.</string>
     <string name="profiler_filter_web_compat">Web Compat</string>
@@ -279,21 +279,21 @@
     <!-- Label for enabling Email Masks -->
     <string name="preferences_enable_email_masks">Enable Email Masks</string>
 
-    <!-- Firefox Labs -->
-    <!-- Firefox Labs is the name of a screen in Settings to allow users to learn about
+    <!-- Iceraven Labs -->
+    <!-- Iceraven Labs is the name of a screen in Settings to allow users to learn about
         experimental and in-development features, and turn those features on and off.
-        The "Labs" portion can be localized, "Firefox" must be treated as a brand and kept
+        The "Labs" portion can be localized, "Iceraven" must be treated as a brand and kept
         in English. -->
-    <string name="firefox_labs_title" tools:ignore="BrandUsage">Firefox Labs</string>
-    <!-- Description text displayed in the Firefox Labs screen. %s is the name of the app (for example "Firefox"). -->
+    <string name="firefox_labs_title" tools:ignore="BrandUsage">Iceraven Labs</string>
+    <!-- Description text displayed in the Iceraven Labs screen. %s is the name of the app (for example "Iceraven"). -->
     <string name="firefox_labs_experimental_description">Give our experimental features a try! They’re in development and evolving, which could impact how %s works.</string>
-    <!-- Button text for restoring the default settings by turning off any experimental features in the Firefox Labs screen. -->
+    <!-- Button text for restoring the default settings by turning off any experimental features in the Iceraven Labs screen. -->
     <string name="firefox_labs_restore_default_button_text">Restore Defaults</string>
-    <!-- Text displayed when no experimental features are available in the Firefox Labs screen. -->
+    <!-- Text displayed when no experimental features are available in the Iceraven Labs screen. -->
     <string name="firefox_labs_no_labs_available_description">No experimental features available</string>
-    <!-- The name of an experimental feature displayed in theFirefox Labs screen. This features allows the user to open the homepage as a new tab. -->
+    <!-- The name of an experimental feature displayed in theIceraven Labs screen. This features allows the user to open the homepage as a new tab. -->
     <string name="firefox_labs_homepage_as_a_new_tab">Homepage as a New Tab</string>
-    <!-- The description of the "Homepage as a New Tab" feature in the Firefox Labs screen. -->
+    <!-- The description of the "Homepage as a New Tab" feature in the Iceraven Labs screen. -->
     <string name="firefox_labs_homepage_as_a_new_tab_description">With this feature enabled, Homepage will behave as a tab.</string>
     <!-- The title used in a confirmation dialog when toggling on an experimental feature. -->
     <string name="firefox_labs_enable_feature_dialog_title">Enable experimental feature?</string>

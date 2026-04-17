@@ -3,6 +3,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 package org.mozilla.fenix.browser
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.Job
 
 import android.app.KeyguardManager
 import android.content.Context
@@ -344,6 +346,11 @@ abstract class BaseBrowserFragment :
     private val fullScreenFeature = ViewBoundFeatureWrapper<FullScreenFeature>()
     protected val hideToolbarFeature = ViewBoundFeatureWrapper<WebAppHideToolbarFeature>()
 
+
+    /////////////// Texerakto REPO /////////////////////START////////
+    private var globalAutoHideJob: Job? = null
+    private var globalToolbarHidden = false
+    /////////////// Texerakto REPO /////////////////////END///////////
     private val swipeRefreshFeature = ViewBoundFeatureWrapper<SwipeRefreshFeature>()
     private val webchannelIntegration = ViewBoundFeatureWrapper<FxaWebChannelIntegration>()
     private val sitePermissionWifiIntegration =
@@ -1488,10 +1495,7 @@ abstract class BaseBrowserFragment :
         activity: HomeActivity,
         store: BrowserStore,
         readerMenuController: DefaultReaderModeController,
-    ) = when (activity.settings().shouldUseComposableToolbar) {
-        true -> initializeBrowserToolbarComposable(activity, store, readerMenuController)
-        false -> initializeBrowserToolbarView(activity, store)
-    }
+    ) = initializeBrowserToolbarView(activity, store)
 
     private fun initializeBrowserToolbarComposable(
         activity: HomeActivity,
@@ -2014,6 +2018,10 @@ abstract class BaseBrowserFragment :
     }
 
     private fun handleTabSelected(selectedTab: TabSessionState, isCustomTabSession: Boolean) {
+        /////////////// Texerakto REPO /////////////////////START////////
+        globalToolbarHidden = false
+        scheduleGlobalBrowserAutoHide()
+        /////////////// Texerakto REPO /////////////////////END///////////
         if (!this.isRemoving && !isCustomTabSession) {
             updateThemeForSession(selectedTab)
         }
@@ -2036,6 +2044,9 @@ abstract class BaseBrowserFragment :
         super.onResume()
         val components = requireComponents
 
+        /////////////// Texerakto REPO /////////////////////START////////
+        scheduleGlobalBrowserAutoHide()
+        /////////////// Texerakto REPO /////////////////////END///////////
         val preferredColorScheme = components.core.getPreferredColorScheme()
         if (components.core.engine.settings.preferredColorScheme != preferredColorScheme) {
             components.core.engine.settings.preferredColorScheme = preferredColorScheme
@@ -2066,6 +2077,9 @@ abstract class BaseBrowserFragment :
     @CallSuper
     override fun onPause() {
         super.onPause()
+        /////////////// Texerakto REPO /////////////////////START////////
+        stopGlobalBrowserAutoHide()
+        /////////////// Texerakto REPO /////////////////////END///////////
         if (findNavController().currentDestination?.id != R.id.searchDialogFragment) {
             view?.hideKeyboard()
         }
@@ -2526,6 +2540,10 @@ abstract class BaseBrowserFragment :
     override fun onDestroyView() {
         super.onDestroyView()
 
+        /////////////// Texerakto REPO /////////////////////START////////
+        stopGlobalBrowserAutoHide()
+        globalToolbarHidden = false
+        /////////////// Texerakto REPO /////////////////////END///////////
         // Diagnostic breadcrumb for "Display already aquired" crash:
         // https://github.com/mozilla-mobile/android-components/issues/7960
         breadcrumb(
@@ -2587,7 +2605,41 @@ abstract class BaseBrowserFragment :
         )
     }
 
-    override fun onAccessibilityStateChanged(enabled: Boolean) {
+    
+    /////////////// Texerakto REPO /////////////////////START////////
+    private fun scheduleGlobalBrowserAutoHide() {
+        globalAutoHideJob?.cancel()
+        globalAutoHideJob = viewLifecycleOwner.lifecycleScope.launch {
+            delay(30_000)
+
+            if (!isAdded || view == null || _browserToolbarView == null) return@launch
+
+            expandBrowserView()
+            globalToolbarHidden = true
+        }
+    }
+
+    internal fun onUserInteractionForPersonalHomepageAutoHide() {
+        globalAutoHideJob?.cancel()
+
+        if (globalToolbarHidden && _browserToolbarView != null) {
+            collapseBrowserView()
+            browserToolbarView.visible()
+            browserToolbarView.expand()
+            globalToolbarHidden = false
+        }
+
+        if (isAdded && view != null && _browserToolbarView != null) {
+            scheduleGlobalBrowserAutoHide()
+        }
+    }
+
+    private fun stopGlobalBrowserAutoHide() {
+        globalAutoHideJob?.cancel()
+    }
+    /////////////// Texerakto REPO /////////////////////END///////////
+
+override fun onAccessibilityStateChanged(enabled: Boolean) {
         if (_browserToolbarView != null) {
             browserToolbarView.setToolbarBehavior(requireContext().settings().toolbarPosition, enabled)
         }
