@@ -759,10 +759,19 @@ class Settings(
     val shouldShowSecurityPinWarning: Boolean
         get() = secureWarningCount.underMaxCount()
 
-    var shouldUseLightTheme by booleanPreference(
-        appContext.getPreferenceKey(R.string.pref_key_light_theme),
-        default = false,
-    )
+    private val lightThemePreferenceKey =
+        appContext.getPreferenceKey(R.string.pref_key_light_theme)
+
+    /**
+     * Fork policy: never use the explicit light theme.
+     */
+    var shouldUseLightTheme: Boolean
+        get() = false
+        set(value) {
+            preferences.edit {
+                putBoolean(lightThemePreferenceKey, false)
+            }
+        }
 
     var shouldUseAutoSize by booleanPreference(
         appContext.getPreferenceKey(R.string.pref_key_accessibility_auto_size),
@@ -1060,15 +1069,33 @@ class Settings(
             }
         }
 
-    var shouldUseDarkTheme by booleanPreference(
-        appContext.getPreferenceKey(R.string.pref_key_dark_theme),
-        default = false,
-    )
+    private val darkThemePreferenceKey =
+        appContext.getPreferenceKey(R.string.pref_key_dark_theme)
 
-    var shouldFollowDeviceTheme by booleanPreference(
-        appContext.getPreferenceKey(R.string.pref_key_follow_device_theme),
-        default = false,
-    )
+    /**
+     * Fork policy: always use dark theme.
+     */
+    var shouldUseDarkTheme: Boolean
+        get() = true
+        set(value) {
+            preferences.edit {
+                putBoolean(darkThemePreferenceKey, true)
+            }
+        }
+
+    private val followDeviceThemePreferenceKey =
+        appContext.getPreferenceKey(R.string.pref_key_follow_device_theme)
+
+    /**
+     * Fork policy: do not follow system theme; force app dark mode.
+     */
+    var shouldFollowDeviceTheme: Boolean
+        get() = false
+        set(value) {
+            preferences.edit {
+                putBoolean(followDeviceThemePreferenceKey, false)
+            }
+        }
 
     var shouldUseHttpsOnly by booleanPreference(
         appContext.getPreferenceKey(R.string.pref_key_https_only),
@@ -1393,11 +1420,19 @@ class Settings(
         default = true,
     )
 
-    var shouldUseBottomToolbar by booleanPreference(
-        key = appContext.getPreferenceKey(R.string.pref_key_toolbar_bottom),
-        default = true,
-        persistDefaultIfNotExists = true,
-    )
+    private val bottomToolbarPreferenceKey =
+        appContext.getPreferenceKey(R.string.pref_key_toolbar_bottom)
+
+    /**
+     * Fork policy: always keep the browser toolbar at the bottom.
+     */
+    var shouldUseBottomToolbar: Boolean
+        get() = true
+        set(value) {
+            preferences.edit {
+                putBoolean(bottomToolbarPreferenceKey, true)
+            }
+        }
 
     var shouldUseExpandedToolbar by booleanPreference(
         key = appContext.getPreferenceKey(R.string.pref_key_toolbar_expanded),
@@ -1411,13 +1446,7 @@ class Settings(
     )
 
     val toolbarPosition: ToolbarPosition
-        get() = if (isTabStripEnabled) {
-            ToolbarPosition.TOP
-        } else if (shouldUseBottomToolbar) {
-            ToolbarPosition.BOTTOM
-        } else {
-            ToolbarPosition.TOP
-        }
+        get() = ToolbarPosition.BOTTOM
 
     var shouldStripUrl by booleanPreference(
         appContext.getPreferenceKey(R.string.pref_key_strip_url),
